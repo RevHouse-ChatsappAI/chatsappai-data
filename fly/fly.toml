@@ -14,7 +14,7 @@ worker = "node --max-old-space-size=1536 apps/dashboard/.next/server/datasource-
 
 [build]
   [build.args]
-    NEXT_PUBLIC_S3_BUCKET_NAME = "chaindesk-prod"
+    NEXT_PUBLIC_S3_BUCKET_NAME = "chatsappai-prod"
     NEXT_PUBLIC_AWS_ENDPOINT = "https://s3.chaindesk.ai"
     NEXT_PUBLIC_DASHBOARD_URL = "https://development.chatsappai.com"
     NEXT_PUBLIC_SLACK_CLIENT_ID="15098575894.5085094124864"

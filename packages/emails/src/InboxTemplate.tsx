@@ -25,7 +25,7 @@ type Props = {
 };
 
 export const GenericTemplate = ({
-  title = 'Chaindesk',
+  title = 'ChatsappAI',
   message = `Hi user,
 
 Thank you for contacting us regarding your subscription concerns. We're here to help! To address the issue, please ensure your payment method is up-to-date and that there are no service outages affecting your account. You can check and update these details in the 'Account Settings' section of our website.
@@ -64,7 +64,7 @@ Best regards,`,
                   href="https://www.chaindesk.ai"
                   target="_blank"
                 >
-                  Chaindesk
+                  ChatsappAI
                 </Link>
               </Text>
             </>

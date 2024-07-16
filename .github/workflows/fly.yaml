@@ -1,4 +1,4 @@
-name: Chaindesk on Fly.io
+name: ChatsappAIon Fly.io
 on:
   workflow_dispatch:
   push:

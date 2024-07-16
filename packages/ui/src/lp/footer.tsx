@@ -31,7 +31,7 @@ export default function Footer() {
               </a>
             </div>
             <div className="text-sm text-zinc-500">
-              &copy; Chaindesk All rights reserved.
+              &copy; ChatsappAIAll rights reserved.
             </div>
             {/* Social links */}
             <ul className="flex mt-4 mb-1 space-x-4">

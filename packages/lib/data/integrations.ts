@@ -9,7 +9,7 @@ const items: Product[] = [
     description:
       'Deploy your AI Chatbot on your website. Customize to fit your brand. Your chatbot is automatically retrained when your data changes.',
     metadata: {
-      title: 'Custom ChatGPT - AI Chatbot for Your Website | Chaindesk',
+      title: 'Custom ChatGPT - AI Chatbot for Your Website | ChatsappAI',
     },
     logo: 'https://www.svgrepo.com/show/197996/internet.svg',
     cta: {
@@ -62,7 +62,7 @@ const items: Product[] = [
       url: 'https://api.whatsapp.com/send/?phone=%2B33652640931&text=Start&type=phone_number&app_absent=0',
     },
     metadata: {
-      title: 'Custom ChatGPT - AI Chatbot for WhatsApp Business | Chaindesk',
+      title: 'Custom ChatGPT - AI Chatbot for WhatsApp Business | ChatsappAI',
     },
     youtubeVideoId: '-NkVS2l66Zs',
     isComingSoon: false,
@@ -83,7 +83,7 @@ const items: Product[] = [
         {
           name: 'Install WhatsApp plugin',
           description:
-            'The final step is to install Chaindesk Bot to your WhatsApp Business account. \nNow your WhatsApp is spiced up \nwith some AI magic ✨',
+            'The final step is to install ChatsappAIBot to your WhatsApp Business account. \nNow your WhatsApp is spiced up \nwith some AI magic ✨',
         },
         {
           name: 'Auto Sync',
@@ -105,7 +105,7 @@ const items: Product[] = [
       url: 'https://development.chatsappai.com/agents',
     },
     metadata: {
-      title: 'Custom ChatGPT - AI Chatbot for Slack | Chaindesk',
+      title: 'Custom ChatGPT - AI Chatbot for Slack | ChatsappAI',
     },
     youtubeVideoId: 'x8-poiGrBa8',
     isComingSoon: false,
@@ -126,7 +126,7 @@ const items: Product[] = [
         {
           name: 'Install Slack plugin',
           description:
-            'The final step is to install Chaindesk Bot to your Slack workspace. \nNow your workspace is spiced up \nwith some AI magic ✨',
+            'The final step is to install ChatsappAIBot to your Slack workspace. \nNow your workspace is spiced up \nwith some AI magic ✨',
         },
         {
           name: 'Auto Sync',
@@ -152,7 +152,7 @@ const items: Product[] = [
     isChannel: true,
     metadata: {
       title:
-        'Custom ChatGPT - AI Chatbot for Crisp - Automate Your Support | Chaindesk',
+        'Custom ChatGPT - AI Chatbot for Crisp - Automate Your Support | ChatsappAI',
     },
     features: {
       items: [
@@ -182,9 +182,9 @@ const items: Product[] = [
   {
     slug: 'zapier',
     name: 'Zapier',
-    title: 'Connect Chaindesk with Anything via Zapier',
+    title: 'Connect ChatsappAIwith Anything via Zapier',
     description:
-      'Connect Chaindesk with over 5,000 apps via Zapier. Train your chatbot in minutes, integrate it seamlessly on your site, and keep your data always in sync.',
+      'Connect ChatsappAIwith over 5,000 apps via Zapier. Train your chatbot in minutes, integrate it seamlessly on your site, and keep your data always in sync.',
     logo: '/shared/images/logos/zapier.png',
     cta: {
       label: 'Get Started for Free',
@@ -193,7 +193,7 @@ const items: Product[] = [
     youtubeVideoId: 'eV7vbhskUaM',
     isChannel: true,
     metadata: {
-      title: 'Chaindesk & Zapier: Seamless Integration with 5,000+ Apps',
+      title: 'ChatsappAI& Zapier: Seamless Integration with 5,000+ Apps',
     },
     features: {
       items: [
@@ -210,7 +210,7 @@ const items: Product[] = [
         {
           name: 'Zapier Setup',
           description:
-            'Create your Zapier worflow and connect Chaindesk with over 5,000 apps.',
+            'Create your Zapier worflow and connect ChatsappAIwith over 5,000 apps.',
         },
         {
           name: 'Auto Sync',
@@ -256,7 +256,7 @@ const items: Product[] = [
     name: 'Wordpress',
     title: 'Add a Custom AI Chatbot to Wordpress in Minutes',
     description:
-      'Train a chatbot with your data on Chaindesk platform. Install the Wordpress plugin! Stay updated with auto-sync.',
+      'Train a chatbot with your data on ChatsappAIplatform. Install the Wordpress plugin! Stay updated with auto-sync.',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/0/09/Wordpress-Logo.svg',
     cta: {
       label: 'Get Started for Free',
@@ -266,7 +266,7 @@ const items: Product[] = [
 
     isChannel: true,
     metadata: {
-      title: 'Custom ChatGPT - AI Chatbot for Wordpress | Chaindesk',
+      title: 'Custom ChatGPT - AI Chatbot for Wordpress | ChatsappAI',
     },
     features: {
       items: [
@@ -283,7 +283,7 @@ const items: Product[] = [
         {
           name: 'Install Wordpress plugin',
           description:
-            'The final step is to link your Wordpress website to your Chaindesk Agent via our plugin. Just install the plugin and follow the instructions.',
+            'The final step is to link your Wordpress website to your ChatsappAIAgent via our plugin. Just install the plugin and follow the instructions.',
         },
         {
           name: 'Auto Sync',
@@ -305,7 +305,7 @@ const items: Product[] = [
       url: 'https://development.chatsappai.com/agents',
     },
     metadata: {
-      title: 'Custom ChatGPT - AI Chatbot for Shopify | Chaindesk',
+      title: 'Custom ChatGPT - AI Chatbot for Shopify | ChatsappAI',
       description: ``,
     },
     youtubeVideoId: '-NkVS2l66Zs',
@@ -327,7 +327,7 @@ const items: Product[] = [
         {
           name: 'Install Shopify plugin',
           description:
-            'The final step is to install Chaindesk Bot to your Shopify store. \nNow your store is spiced up \nwith some AI magic ✨',
+            'The final step is to install ChatsappAIBot to your Shopify store. \nNow your store is spiced up \nwith some AI magic ✨',
         },
         {
           name: 'Auto Sync',
@@ -349,7 +349,7 @@ const items: Product[] = [
       url: 'https://development.chatsappai.com/agents',
     },
     metadata: {
-      title: 'Custom ChatGPT - AI Chatbot for Telegram | Chaindesk',
+      title: 'Custom ChatGPT - AI Chatbot for Telegram | ChatsappAI',
       description: ``,
     },
     youtubeVideoId: 'eV7vbhskUaM',
@@ -371,7 +371,7 @@ const items: Product[] = [
         {
           name: 'Install Telegram plugin',
           description:
-            'The final step is to install Chaindesk Bot to your Telegram. \nNow your workspace is spiced up \nwith some AI magic ✨',
+            'The final step is to install ChatsappAIBot to your Telegram. \nNow your workspace is spiced up \nwith some AI magic ✨',
         },
         {
           name: 'Auto Sync',
@@ -391,7 +391,7 @@ const items: Product[] = [
       'Easily train your custom chatgpt chatbot with data from your website. Your chatbot is automatically retrained when your data changes.',
     metadata: {
       title:
-        'Chaindesk Plugin: Website - AI Chatbot trained with your Website data',
+        'ChatsappAIPlugin: Website - AI Chatbot trained with your Website data',
     },
     youtubeVideoId: '-NkVS2l66Zs',
     logo: 'https://www.svgrepo.com/show/197996/internet.svg',
@@ -429,7 +429,7 @@ const items: Product[] = [
     youtubeVideoId: 'A8Ke7mjX16A',
     metadata: {
       title:
-        'Chaindesk Plugin: Notion - AI Chatbot trained with your Notion data',
+        'ChatsappAIPlugin: Notion - AI Chatbot trained with your Notion data',
     },
     isDatasource: true,
     features: {
@@ -437,7 +437,7 @@ const items: Product[] = [
         {
           name: 'Connect your Notion Account',
           description:
-            'Select the notebooks your want to import in Chaindesk. It takes just a few seconds.',
+            'Select the notebooks your want to import in ChatsappAI. It takes just a few seconds.',
         },
         {
           name: 'Chat',
@@ -457,7 +457,7 @@ const items: Product[] = [
     name: 'Google Drive',
     title: 'Train your AI with data from Google Drive',
     description:
-      'Chat with any Notion notebook using Chaindesk. Easily add a Notion notebook and start getting summaries or finding information.',
+      'Chat with any Notion notebook using ChatsappAI. Easily add a Notion notebook and start getting summaries or finding information.',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg',
     cta: {
       label: 'Connect your Google Drive account',
@@ -465,7 +465,7 @@ const items: Product[] = [
     },
     metadata: {
       title:
-        'Chaindesk Plugin: Google Drive - AI Chatbot trained with your Google Drive data',
+        'ChatsappAIPlugin: Google Drive - AI Chatbot trained with your Google Drive data',
     },
     youtubeVideoId: 'Jq_XKf5slVc',
     isDatasource: true,
@@ -494,7 +494,7 @@ const items: Product[] = [
     name: 'YouTube',
     title: 'Chat with YouTube videos',
     description:
-      'Easily train your custom chatgpt chatbot any YouTube videos using Chaindesk.',
+      'Easily train your custom chatgpt chatbot any YouTube videos using ChatsappAI.',
     logo: 'https://www.svgrepo.com/show/13671/youtube.svg',
     cta: {
       label: 'Add a YouTube video',
@@ -502,7 +502,7 @@ const items: Product[] = [
     },
     metadata: {
       title:
-        'Chaindesk Plugin: YoutTube - AI Chatbot trained with your YouTube videos',
+        'ChatsappAIPlugin: YoutTube - AI Chatbot trained with your YouTube videos',
     },
     youtubeVideoId: '-NkVS2l66Zs',
     isDatasource: true,
@@ -539,7 +539,7 @@ const items: Product[] = [
     },
     metadata: {
       title:
-        'Chaindesk Plugin: Powerpoint - AI Chatbot trained with your Powerpoint documents',
+        'ChatsappAIPlugin: Powerpoint - AI Chatbot trained with your Powerpoint documents',
     },
     youtubeVideoId: '_n3VQM9N3-Q',
     isDatasource: true,
@@ -548,7 +548,7 @@ const items: Product[] = [
         {
           name: 'Add your data',
           description:
-            'Import your Powerpoint documents to Chaindesk. It takes just a few seconds.',
+            'Import your Powerpoint documents to ChatsappAI. It takes just a few seconds.',
         },
         {
           name: 'Chat',
@@ -571,7 +571,7 @@ const items: Product[] = [
     },
     metadata: {
       title:
-        'Chaindesk Plugin: Word - AI Chatbot trained with your Word documents',
+        'ChatsappAIPlugin: Word - AI Chatbot trained with your Word documents',
     },
     youtubeVideoId: '_n3VQM9N3-Q',
     isDatasource: true,
@@ -580,7 +580,7 @@ const items: Product[] = [
         {
           name: 'Add your data',
           description:
-            'Import your Word documents to Chaindesk. It takes just a few seconds.',
+            'Import your Word documents to ChatsappAI. It takes just a few seconds.',
         },
         {
           name: 'Chat',
@@ -603,7 +603,7 @@ const items: Product[] = [
     },
     metadata: {
       title:
-        'Chaindesk Plugin: Excel - AI Chatbot trained with your Excel documents',
+        'ChatsappAIPlugin: Excel - AI Chatbot trained with your Excel documents',
     },
     youtubeVideoId: '_n3VQM9N3-Q',
     isDatasource: true,
@@ -612,7 +612,7 @@ const items: Product[] = [
         {
           name: 'Add your data',
           description:
-            'Import your Excel documents to Chaindesk. It takes just a few seconds.',
+            'Import your Excel documents to ChatsappAI. It takes just a few seconds.',
         },
         {
           name: 'Chat',
@@ -633,14 +633,14 @@ const items: Product[] = [
     isDatasource: true,
     metadata: {
       title:
-        'Chaindesk Plugin: PDF Files - AI Chatbot trained with your PDF documents',
+        'ChatsappAIPlugin: PDF Files - AI Chatbot trained with your PDF documents',
     },
     features: {
       items: [
         {
           name: 'Add your PDF files',
           description:
-            'Import your PDF documents to Chaindesk. It takes just a few seconds.',
+            'Import your PDF documents to ChatsappAI. It takes just a few seconds.',
         },
         {
           name: 'Chat',

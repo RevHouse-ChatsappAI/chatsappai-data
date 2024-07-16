@@ -57,7 +57,7 @@ export const invite = async (req: AppNextApiRequest, res: NextApiResponse) => {
 
     await mailer.sendMail({
       from: {
-        name: 'Chaindesk',
+        name: 'ChatsappAI',
         address: process.env.EMAIL_FROM!,
       },
       to: data.email,

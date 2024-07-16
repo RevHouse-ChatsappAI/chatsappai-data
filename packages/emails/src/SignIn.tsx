@@ -21,7 +21,7 @@ interface Props {
 }
 
 export const SignIn = ({ url, host }: Props) => {
-  const previewText = `Sign in to Chaindesk`;
+  const previewText = `Sign in to ChatsappAI`;
 
   return (
     <Html>
@@ -39,7 +39,7 @@ export const SignIn = ({ url, host }: Props) => {
               />
             </Section>
             <Heading className="text-black text-[24px] font-normal text-center p-0 my-[30px] mx-0">
-              Sign in to <strong>Chaindesk</strong>
+              Sign in to <strong>ChatsappAI</strong>
             </Heading>
             <Text className="text-black text-[14px] text-center leading-[24px]">
               Click the button below to sign in and continue enjoying our
@@ -55,7 +55,7 @@ export const SignIn = ({ url, host }: Props) => {
             </Section>
             <Text className="text-[#666666] text-[12px] leading-[24px] mt-4">
               If you have any issues with signing in, feel free to
-              <Link href="mailto:support@chaindesk.ai" className="underline">
+              <Link href="mailto:support@chatsappai.com" className="underline">
                 {' '}
                 contact us
               </Link>

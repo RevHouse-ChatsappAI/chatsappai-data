@@ -210,7 +210,7 @@ function PluginSettings({ datastore }: { datastore: Datastore }) {
           <FormLabel>Name for humans (required, 20 character max)</FormLabel>
           <Input
             control={methods.control as any}
-            placeholder="e.g. Chaindesk"
+            placeholder="e.g. ChatsappAI"
             {...methods.register('pluginName')}
           />
         </FormControl>
@@ -220,7 +220,7 @@ function PluginSettings({ datastore }: { datastore: Datastore }) {
           </FormLabel>
           <Input
             control={methods.control as any}
-            placeholder="e.g. Chaindesk is a no-code platform for building AI apps..."
+            placeholder="e.g. ChatsappAIis a no-code platform for building AI apps..."
             {...methods.register('pluginDescriptionForHumans')}
           />
         </FormControl>

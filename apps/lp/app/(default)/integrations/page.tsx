@@ -86,7 +86,7 @@ export default function IntegrationsPage({
           {`Train your AI with data from anywhere`}
         </h2>
         <p className="max-w-lg mx-auto mb-8 text-lg text-zinc-500 md:text-xl">
-          {`Chaindesk makes it very easy to train your AI Agent with custom data from your existing tools and platforms.`}
+          {`ChatsappAImakes it very easy to train your AI Agent with custom data from your existing tools and platforms.`}
         </p>
 
         <Highlighter className="grid grid-cols-1 gap-4 py-12 cursor-pointer sm:grid-cols-2 lg:grid-cols-3">

@@ -215,7 +215,7 @@ export default function Hero() {
                     </Stack>
                     <Typography textColor="text.secondary">
                       <b>+10K</b> companies have successfully <br></br>built
-                      their custom AI Agent with Chaindesk
+                      their custom AI Agent with ChatsappAI
                     </Typography>
                   </Stack>
                 </Box>

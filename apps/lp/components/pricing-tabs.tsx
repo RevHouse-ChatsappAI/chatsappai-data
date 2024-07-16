@@ -220,7 +220,7 @@ const Features = function (props: {
 
             <Tooltip
               id="06"
-              content="Team seats are used to give access to your team members to your Chaindesk account"
+              content="Team seats are used to give access to your team members to your ChatsappAIaccount"
               dark={props.highlighted}
             >
               No team seats included
@@ -239,7 +239,7 @@ const Features = function (props: {
 
             <Tooltip
               id="06"
-              content="Team seats are used to give access to your team members to your Chaindesk account"
+              content="Team seats are used to give access to your team members to your ChatsappAIaccount"
               dark={props.highlighted}
             >
               {config[props.plan].limits.maxSeats} Team seats included
@@ -275,10 +275,10 @@ const Features = function (props: {
 
           <Tooltip
             id="06"
-            content="Remove 'Powered by Chaindesk' from all widgets"
+            content="Remove 'Powered by ChatsappAI' from all widgets"
             dark={props.highlighted}
           >
-            Remove Chaindesk branding
+            Remove ChatsappAIbranding
           </Tooltip>
         </li>
 
@@ -561,7 +561,7 @@ export default function PricingTabs() {
   const faqs = [
     {
       title: 'Can I use the product for free?',
-      text: 'Absolutely! Chaindesk allows offers a free with limited features to get started quickly.',
+      text: 'Absolutely! ChatsappAIallows offers a free with limited features to get started quickly.',
       active: false,
     },
     {
@@ -582,7 +582,7 @@ export default function PricingTabs() {
     },
     {
       title:
-        'I need a custom integration or feature that is not supported by Chaindesk. Can you help?',
+        'I need a custom integration or feature that is not supported by ChatsappAI. Can you help?',
       text: 'Absolutely! If you need us to build a custom integration for your company, you can join as an enterprise customer and we can figure out a custom pricing plan for you, based on your needs',
       active: false,
     },
@@ -599,7 +599,7 @@ export default function PricingTabs() {
     },
     {
       title: 'How to contact the support team?',
-      text: 'You can send us an email at support@chaindesk.ai or use the chat widget on the bottom right of the page.',
+      text: 'You can send us an email at support@chatsappai.com or use the chat widget on the bottom right of the page.',
       active: false,
     },
   ];
@@ -845,7 +845,7 @@ export default function PricingTabs() {
                     <div className="">
                       <a
                         className="w-full bg-gradient-to-r shadow btn text-zinc-100 from-zinc-700 to-zinc-900 hover:from-zinc-900 hover:to-zinc-900"
-                        href="mailto:support@chaindesk.ai"
+                        href="mailto:support@chatsappai.com"
                       >
                         Contact Us
                       </a>

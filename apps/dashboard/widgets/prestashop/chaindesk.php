@@ -2,7 +2,7 @@
 /**
  * chaindesk.php
  *
- * This file is the main entry point for the ChainDesk module in PrestaShop.
+ * This file is the main entry point for the ChatsappAImodule in PrestaShop.
  * It initializes and configures the module.
  *
  * @author chaindesk
@@ -13,7 +13,7 @@ if (!defined('_PS_VERSION_')) {
     exit;
 }
 
-class Chaindesk extends Module
+class ChatsappAIextends Module
 {
     public function __construct()
     {
@@ -63,7 +63,7 @@ class Chaindesk extends Module
         $tab->name = [];
 
         foreach (Language::getLanguages(true) as $lang) {
-            $tab->name[$lang['id_lang']] = 'Chaindesk';
+            $tab->name[$lang['id_lang']] = 'ChatsappAI';
         }
 
         $tab->id_parent = (int) Tab::getIdFromClassName('AdminAdmin');

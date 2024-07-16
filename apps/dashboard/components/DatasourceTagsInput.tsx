@@ -41,7 +41,7 @@ function DatasourceTagsInput({}: Props) {
             <Input
               key={field.id} // important to include key with field's id
               control={control as any}
-              placeholder={`Tag (e.g. "Country: France" or "Customer Support")`}
+              placeholder={`Tag (e.g. "Country: Argentina" or "Customer Support")`}
               {...register(`config.tags.${index}`)}
               endDecorator={
                 <IconButton

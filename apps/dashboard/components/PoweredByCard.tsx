@@ -17,11 +17,11 @@ function PoweredByCard({ sx, ...otherProps }: Props) {
       <Typography level="h2">
         Powered By{' '}
         <Typography color="primary" fontStyle="italic">
-          Chaindesk.ai
+          ChatsappAI.com
         </Typography>
       </Typography>
       <Typography level="body-lg">
-        Chaindesk is the leading platform for building AI agents trained on your
+        ChatsappAIis the leading platform for building AI agents trained on your
         data.
       </Typography>
 

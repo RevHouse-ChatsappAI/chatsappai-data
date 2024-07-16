@@ -196,7 +196,7 @@ export const updateInboxConversation = async (
     // SEND Email
     await mailer.sendMail({
       from: {
-        name: 'Chaindesk',
+        name: 'ChatsappAI',
         address: process.env.EMAIL_FROM!,
       },
       to: updated?.assignees?.[0]?.user?.email!,

@@ -335,7 +335,7 @@ function ChatBox({
   return (
     <Stack
       ref={chatboxRef}
-      className="chaindesk-chatbox"
+      className="chatsappai-chatbox"
       direction={'column'}
       gap={2}
       sx={{

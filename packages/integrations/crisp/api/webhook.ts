@@ -233,7 +233,7 @@ const handleQuery = async ({
             },
       user: {
         type: 'participant',
-        nickname: agent?.name || 'Chaindesk',
+        nickname: agent?.name || 'ChatsappAI',
         avatar: agent?.iconUrl || 'https://chaindesk.ai/logo.png',
       },
     });

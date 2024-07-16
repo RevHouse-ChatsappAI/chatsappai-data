@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Script
-        id="chaindesk-agent"
+        id="chatsappai-agent"
         type="module"
         dangerouslySetInnerHTML={{
           __html: `import Chatbox from 'https://cdn.jsdelivr.net/npm/@chaindesk/embeds@latest/dist/chatbox/index.js';

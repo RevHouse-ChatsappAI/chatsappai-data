@@ -30,7 +30,7 @@ export default function Header() {
                 />
               </div>
               <span className="text-lg font-bold font-bricolage-grotesque">
-                Chaindesk
+                ChatsappAI
               </span>
             </LinkWithUTMFromPath>
 

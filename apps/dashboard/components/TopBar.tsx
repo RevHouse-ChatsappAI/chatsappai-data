@@ -24,7 +24,7 @@ export default function TopBar(props: Props) {
           >
             <Logo className="w-10" />
             <Typography component="h1" fontWeight="xl">
-              Chaindesk
+              ChatsappAI
             </Typography>
           </Box>
         </Link>

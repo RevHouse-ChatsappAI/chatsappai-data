@@ -211,7 +211,7 @@ export default function Youtube(props: {
                         <Typography level="body-xs" fontSize={'10px'}>
                           Powered by{' '}
                           <Typography color="primary" fontWeight={'bold'}>
-                            ⚡️ Chaindesk
+                            ⚡️ ChatsappAI
                           </Typography>
                         </Typography>
                       </Box>

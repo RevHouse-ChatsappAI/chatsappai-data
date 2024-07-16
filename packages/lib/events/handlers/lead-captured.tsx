@@ -23,7 +23,7 @@ const handler: AppEventHandler<
   await Promise.all([
     mailer.sendMail({
       from: {
-        name: 'Chaindesk',
+        name: 'ChatsappAI',
         address: process.env.EMAIL_FROM!,
       },
       to: event.adminEmail!,

@@ -9,7 +9,7 @@ const items: Product[] = [
       'Train an AI chatbot with your data. Add it to your site or existing tools in minutes! Your chatbot is automatically retrained when your data changes.',
     metadata: {
       title:
-        'AI Agent - Custom ChatGPT AI Chatbot for Your Website | Chaindesk',
+        'AI Agent - Custom ChatGPT AI Chatbot for Your Website | ChatsappAI',
     },
     logo: '/images/logo.png',
     cta: {
@@ -87,7 +87,7 @@ const items: Product[] = [
     description:
       'Create beautiful AI-driven forms that talk naturally, ask/answer questions & engage users in any touch point.',
     metadata: {
-      title: 'AI Form - Build GPT-Powered form in minutes | Chaindesk',
+      title: 'AI Form - Build GPT-Powered form in minutes | ChatsappAI',
     },
     logo: '/images/logo.png',
     cta: {
@@ -102,7 +102,7 @@ const items: Product[] = [
         {
           name: 'Form Setup',
           description:
-            "Use Chaindesk's form builder to configure your form. Give your AI a persona and add fields for data you want to collect.",
+            "Use ChatsappAI's form builder to configure your form. Give your AI a persona and add fields for data you want to collect.",
         },
         {
           name: 'Publish',
@@ -115,9 +115,9 @@ const items: Product[] = [
             'Easily embed the form on your website with a simple HTML snippet.',
         },
         {
-          name: 'Connect your form to a Chaindesk AI Agent',
+          name: 'Connect your form to a ChatsappAIAI Agent',
           description:
-            'Optionally, AI Forms can be connected to a Chaindesk AI Agent to enhance their capabilities.',
+            'Optionally, AI Forms can be connected to a ChatsappAIAI Agent to enhance their capabilities.',
         },
       ],
     },
@@ -129,7 +129,7 @@ const items: Product[] = [
     description:
       'Automate your email support with the help of AI. Get 10x fast replies!',
     metadata: {
-      title: 'Email Support - Automate Your Email Support with AI | Chaindesk',
+      title: 'Email Support - Automate Your Email Support with AI | ChatsappAI',
     },
     logo: '/images/logo.png',
     icon: (props: any) => {
@@ -151,17 +151,17 @@ const items: Product[] = [
     },
     features: {
       title: `AI-Powered email support`,
-      description: `Handle all your emails through Chaindesk's convenient dashboard. The Email Inbox uses AI too - it will assist you in resolving the issue faster.`,
+      description: `Handle all your emails through ChatsappAI's convenient dashboard. The Email Inbox uses AI too - it will assist you in resolving the issue faster.`,
       items: [
         {
           name: '2-minutes setup',
           description:
-            'Configure Chaindesk to receive and send emails on your behalf - get started in less than 2 minutes.',
+            'Configure ChatsappAIto receive and send emails on your behalf - get started in less than 2 minutes.',
         },
         {
           name: 'AI-powered email replies',
           description:
-            "Chaindesk's AI will learn - not only from your knowledge base - but from all your previous email conversations.",
+            "ChatsappAI's AI will learn - not only from your knowledge base - but from all your previous email conversations.",
         },
         {
           name: 'Smart suggestions',
@@ -206,7 +206,7 @@ const items: Product[] = [
       'Monitor and manage all your customer conversations in one place. Take over your AI chatbot when needed. Assign conversations to your team members.',
     metadata: {
       title:
-        'Shared Inbox - All your AI chatbot conversations in one place | Chaindesk',
+        'Shared Inbox - All your AI chatbot conversations in one place | ChatsappAI',
       description: '',
     },
     logo: '/images/logo.png',

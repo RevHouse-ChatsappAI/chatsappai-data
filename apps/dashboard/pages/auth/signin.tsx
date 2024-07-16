@@ -87,7 +87,7 @@ export default function SignInPage() {
     <>
       <SEO
         title="Sign-in"
-        description="Sign-in to your Chaindesk account."
+        description="Sign-in to your ChatsappAIaccount."
         baseUrl={appUrl}
         uri={RouteNames.SIGN_IN}
       />
@@ -135,7 +135,7 @@ export default function SignInPage() {
                           <Logo className="cursor-pointer w-14" />
                         </div>
                         <Typography level="h4" fontWeight="xl">
-                          {`Chaindesk`}
+                          {`ChatsappAI`}
                         </Typography>
                       </div>
                     </a>

@@ -26,7 +26,7 @@ export async function generateMetadata(
   const previousImages = (await parent).openGraph?.images || [];
 
   return {
-    title: `All: Page ${index} - AI News | Chaindesk`,
+    title: `All: Page ${index} - AI News | ChatsappAI`,
     description: 'Get the latest AI news before anyone else.',
     alternates: {
       canonical: `/tools/youtube-summarizer/all/${index}`,

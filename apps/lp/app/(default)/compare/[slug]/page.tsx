@@ -45,8 +45,8 @@ export async function generateMetadata(
   // const previousImages = prev?.openGraph?.images || [];
 
   return {
-    title: `${name} alternative - Chaindesk`,
-    description: `Chaindesk is the #1 ${name} alternative that helps you create a custom ChatGPT AI chatbot without code in minutes. `,
+    title: `${name} alternative - ChatsappAI`,
+    description: `ChatsappAIis the #1 ${name} alternative that helps you create a custom ChatGPT AI chatbot without code in minutes. `,
     alternates: {
       canonical: `/compare/${slugify(name)}-alternative`,
     },
@@ -84,7 +84,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
         ctaClassName="justify-center sm:justify-start"
         name={`${name} Alternative`}
         title={`Your search for an alternative to ${name} ends here`}
-        description={`Looking for a ${name} alternative? People switch from ${name} to Chaindesk because it looks better, comes with more widgets and customization and is much easier to use. Here’s why we think you should make the switch too ✨`}
+        description={`Looking for a ${name} alternative? People switch from ${name} to ChatsappAIbecause it looks better, comes with more widgets and customization and is much easier to use. Here’s why we think you should make the switch too ✨`}
         cta={{
           label: 'Start for free',
           url: 'https://development.chatsappai.com/agents',
@@ -124,26 +124,26 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
       </section>
 
       <FeatureV1
-        label="Why Chaindesk?"
-        title={`Chaindesk VS ${name}`}
-        description="Chaindesk is an AI-powered ecosystem that helps you automate support and more. Here’s why you should make the switch to Chaindesk:"
+        label="Why ChatsappAI?"
+        title={`ChatsappAIVS ${name}`}
+        description="ChatsappAIis an AI-powered ecosystem that helps you automate support and more. Here’s why you should make the switch to ChatsappAI:"
         features={[
           {
             name: 'Native Integrations:',
             description:
-              'Chaindesk allows you to import data from a wide range of sources, Notion, Google Drive, and more...',
+              'ChatsappAIallows you to import data from a wide range of sources, Notion, Google Drive, and more...',
             icon: CheckIcon,
           },
           {
             name: 'Auto-Sync Datasources:',
             description:
-              'Chaindesk retrains your AI chatbot automatically when your data is updated.',
+              'ChatsappAIretrains your AI chatbot automatically when your data is updated.',
             icon: CheckIcon,
           },
           {
             name: 'Trustworthy, Secure and Focused:',
             description:
-              'With built-in safeguards, Chaindesk strictly uses your support content to answer questions, eliminating off-topic conversations and misleading responses.',
+              'With built-in safeguards, ChatsappAIstrictly uses your support content to answer questions, eliminating off-topic conversations and misleading responses.',
             icon: CheckIcon,
           },
           {
@@ -155,7 +155,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           {
             name: 'Human Handoff:',
             description:
-              'With Chaindesk you can take over the conversation at any time, ensuring that your customers are always getting the best possible support.',
+              'With ChatsappAIyou can take over the conversation at any time, ensuring that your customers are always getting the best possible support.',
             icon: CheckIcon,
           },
           {
@@ -167,25 +167,25 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           {
             name: 'Automatic Ticket Resolution:',
             description:
-              'Chaindesk AI Agents are able to resolve tickets automatically, when the user is satisfied with the answer. This reduces the workload of your support team.',
+              'ChatsappAIAI Agents are able to resolve tickets automatically, when the user is satisfied with the answer. This reduces the workload of your support team.',
             icon: CheckIcon,
           },
           {
             name: 'Lead Generation:',
             description:
-              'Chaindesk AI Agents are able to collect user information (email, phone number) in a conversational way.',
+              'ChatsappAIAI Agents are able to collect user information (email, phone number) in a conversational way.',
             icon: CheckIcon,
           },
           {
             name: 'Multilingual:',
             description:
-              'With support for over 120 languages, Chaindesk chatbots can serve a global customer base, breaking down language barriers and facilitating seamless international customer service.',
+              'With support for over 120 languages, ChatsappAIchatbots can serve a global customer base, breaking down language barriers and facilitating seamless international customer service.',
             icon: CheckIcon,
           },
           {
             name: 'Near-zero learning curve:',
             description:
-              'Chaindesk is designed to be easy to use, with a simple and intuitive interface that requires no technical knowledge to operate.',
+              'ChatsappAIis designed to be easy to use, with a simple and intuitive interface that requires no technical knowledge to operate.',
             icon: CheckIcon,
           },
         ]}

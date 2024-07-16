@@ -86,7 +86,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
               </h2>
               <p className="mt-6 text-lg leading-8 text-zinc-500">
                 {product.features.description ||
-                  `Chaindesk makes it very easy to train a chatbot on your company
+                  `ChatsappAImakes it very easy to train a chatbot on your company
                 data.`}
               </p>
             </div>

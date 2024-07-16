@@ -193,7 +193,7 @@ async function main() {
     const agentCreateProps = {
       id: premiumAgentId,
       name: 'Adam',
-      description: 'Chaindesk AI Agent for Customer Support',
+      description: 'ChatsappAIAI Agent for Customer Support',
       organization: {
         connect: {
           id: premiumOrgId,
@@ -205,9 +205,9 @@ async function main() {
           id: userId,
         },
       },
-      systemPrompt: `Your name is Adam, and you are a Customer Support Specialist at Chaindesk.ai
+      systemPrompt: `Your name is Adam, and you are a Customer Support Specialist at ChatsappAI.com
 As a customer support agent, please provide a helpful and professional response to the user's question or issue.
-Support email is support@chaindesk.ai
+Support email is support@chatsappai.com
 Answer briefly.
 Inject humor, playfulness, and a spirited tone into the content. You can use emojies.`,
       userPrompt: '{query}',

@@ -67,9 +67,9 @@
       "url": "privacy"
     },
     {
-      "name": "support@chaindesk.ai",
+      "name": "support@chatsappai.com",
       "icon": "comment-question",
-      "url": "mailto:support@chaindesk.ai"
+      "url": "mailto:support@chatsappai.com"
     }
   ],
   "navigation": [
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "group": "chaindesk API",
+      "group": "ChatsappAIAPI",
       "pages": ["api-reference/authentication"]
     },
 

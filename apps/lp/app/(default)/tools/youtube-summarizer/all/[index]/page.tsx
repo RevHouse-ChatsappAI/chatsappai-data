@@ -26,7 +26,7 @@ export async function generateMetadata(
   const previousImages = (await parent).openGraph?.images || [];
 
   return {
-    title: `All: Page ${index} - Free AI Youtube Video Summarizer | Chaindesk`,
+    title: `All: Page ${index} - Free AI Youtube Video Summarizer | ChatsappAI`,
     description: 'Generate YouTube video summaries instantly for free with AI',
     alternates: {
       canonical: `/tools/youtube-summarizer/all/${index}`,

@@ -63,7 +63,7 @@ export async function GET(request: Request) {
       >
         {/* <img
           src={`https://chaindesk.ai/${image ? image : 'app-logo-dark'}.png`}
-          alt="Chaindesk logo"
+          alt="ChatsappAIlogo"
           style={{
             objectFit: 'contain',
             width: '300px',

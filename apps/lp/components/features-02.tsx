@@ -52,7 +52,7 @@ export default function Features02() {
             >
               <TextGenerateEffect
                 duration={0.5}
-                text={`Chaindesk leverages Generative AI models like GPT-4 to provide secure, precise responses, resolving customer inquiries and instantly reducing your team’s ticket volume.`}
+                text={`ChatsappAIleverages Generative AI models like GPT-4 to provide secure, precise responses, resolving customer inquiries and instantly reducing your team’s ticket volume.`}
               />
             </motion.p>
           </div>
@@ -87,7 +87,7 @@ export default function Features02() {
                   </h3>
                 </div>
                 <p className="max-w-md text-sm grow text-zinc-500">
-                  Chaindesk ingests content seamlessly from various sources
+                  ChatsappAIingests content seamlessly from various sources
                   including Files, Notion, Google Drive, Zendesk Help Center,
                   and any public URL for comprehensive responses.
                 </p>
@@ -123,7 +123,7 @@ export default function Features02() {
                   </h3>
                 </div>
                 <p className="max-w-md text-sm grow text-zinc-500">
-                  With built-in safeguards, Chaindesk Agents provides precise
+                  With built-in safeguards, ChatsappAIAgents provides precise
                   responses that stick to your knowledge base, eliminating
                   off-topic conversations and misleading responses.
                 </p>
@@ -157,7 +157,7 @@ export default function Features02() {
                   </h3>
                 </div>
                 <p className="max-w-md text-sm grow text-zinc-500">
-                  Chaindesk ensures uninterrupted conversations across platforms
+                  ChatsappAIensures uninterrupted conversations across platforms
                   including Embeddable Widgets, WhatsApp, Slack, Telegram, and
                   more.
                 </p>

@@ -134,9 +134,9 @@ export default function ExpandedNavigation({
           >
             <Stack direction="row" alignItems="center" gap={1.5}>
               <div className="relative w-5 h-5 mt-[0.5px] flex justify-center ">
-                <Image layout="fill" src="/logo.png" alt="Chaindesk" />
+                <Image layout="fill" src="/logo.png" alt="ChatsappAI" />
               </div>
-              <Typography level="title-md">Chaindesk</Typography>
+              <Typography level="title-md">ChatsappAI</Typography>
             </Stack>
             <DarkModeToggle variant="plain" color="neutral" />
           </Stack>
@@ -196,7 +196,7 @@ export default function ExpandedNavigation({
                   messageTemplates: [
                     "🐛 Bug Report",
                     "💬 Product Feedback",
-                    "❤️ I Love Chaindesk",
+                    "❤️ I Love ChatsappAI",
                   ]
                 } 
               });
@@ -313,7 +313,7 @@ export default function ExpandedNavigation({
                           </Chip>
                         }
                       >
-                        Chaindesk Agents
+                        ChatsappAIAgents
                       </Button>
                     </Link>
                   )}
@@ -365,9 +365,9 @@ export default function ExpandedNavigation({
               </IconButton>
             </Link>
           </Stack>
-          <Link href="mailto:support@chaindesk.ai" className="mx-auto">
+          <Link href="mailto:support@chatsappai.com" className="mx-auto">
             <Typography level="body-sm" mx={'auto'}>
-              support@chaindesk.ai
+              support@chatsappai.com
             </Typography>
           </Link>
 

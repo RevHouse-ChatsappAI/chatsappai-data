@@ -165,7 +165,7 @@ export async function generateMetadata(
 
   const title = summary?.output?.metadata?.title;
   return {
-    title: `${summary?.output?.metadata?.title} - AI News | Chaindesk`,
+    title: `${summary?.output?.metadata?.title} - AI News | ChatsappAI`,
     description:
       summary?.output?.metadata?.description ||
       `Get the latest AI news before anyone else`,
@@ -180,7 +180,7 @@ export async function generateMetadata(
         ...previousImages,
       ],
     },
-    keywords: `AI News, AI chatbot, No-code platform, AI Customer Support, Onboarding, Slack AI chatbot, Automation, Chaindesk, ChatGPT Plugin, Chat PDF, Chat with any document, Custom ChatGPT Bot, Chatbot GPT, Chatbot, ChatGPT Chatbot, WhatsApp ChatGPT Chatbot`,
+    keywords: `AI News, AI chatbot, No-code platform, AI Customer Support, Onboarding, Slack AI chatbot, Automation, ChatsappAI, ChatGPT Plugin, Chat PDF, Chat with any document, Custom ChatGPT Bot, Chatbot GPT, Chatbot, ChatGPT Chatbot, WhatsApp ChatGPT Chatbot`,
   };
 }
 

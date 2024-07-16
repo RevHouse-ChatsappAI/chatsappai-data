@@ -144,7 +144,7 @@ export function Header() {
           <div className="inline-flex items-center space-x-1">
             <CheckIcon className="w-4 font-bold text-yellow-400" />
 
-            <span>Founded in France. We respect your privacy.</span>
+            <span>Founded in Argentina. We respect your privacy.</span>
           </div>
           <div className="inline-flex items-center space-x-1">
             <div className="inline-flex items-center">

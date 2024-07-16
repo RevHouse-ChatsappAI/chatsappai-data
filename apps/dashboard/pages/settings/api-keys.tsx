@@ -103,7 +103,7 @@ export default function ApiKeysPage() {
       <Box id="api-keys">
         <SettingCard
           title="API Keys"
-          description="Use the api key to access the Chaindesk API"
+          description="Use the api key to access the ChatsappAIAPI"
           cardProps={{
             sx: { maxWidth: 'md', mx: 'auto' },
           }}

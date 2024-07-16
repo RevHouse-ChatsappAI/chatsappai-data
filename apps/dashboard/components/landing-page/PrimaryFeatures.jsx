@@ -52,7 +52,7 @@ export function PrimaryFeatures() {
             Prepare your data for the new AI era
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-400">
-            Chaindesk provides a user-friendly solution to quickly setup a
+            ChatsappAIprovides a user-friendly solution to quickly setup a
             semantic search system over your custom data without any technical
             knowledge
           </p>

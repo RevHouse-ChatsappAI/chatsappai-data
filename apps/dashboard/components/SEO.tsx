@@ -52,7 +52,7 @@ function SEO(props: Props) {
       <meta
         key="keywords"
         name="keywords"
-        content={`"AI chatbot, No-code platform, Customer support, Onboarding, Slack AI chatbot, Automation, Chaindesk, ChatGPT Plugin, Chat PDF, Chat with any document, Custom ChatGPT Bot, Chatbot GPT, Chatbot, ChatGPT Chatbot" ${
+        content={`"AI chatbot, No-code platform, Customer support, Onboarding, Slack AI chatbot, Automation, ChatsappAI, ChatGPT Plugin, Chat PDF, Chat with any document, Custom ChatGPT Bot, Chatbot GPT, Chatbot, ChatGPT Chatbot" ${
           props.keywords || ''
         }`}
       />

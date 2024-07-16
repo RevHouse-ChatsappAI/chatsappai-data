@@ -16,7 +16,7 @@ export default class ChatModel {
       ...options,
       defaultHeaders: {
         'HTTP-Referer': 'https://www.chaindesk.ai/', // Optional, for including your app on openrouter.ai rankings.
-        'X-Title': 'Chaindesk', // Optional. Shows in rankings on openrouter.ai.
+        'X-Title': 'ChatsappAI', // Optional. Shows in rankings on openrouter.ai.
         ...options?.defaultHeaders,
       },
     });

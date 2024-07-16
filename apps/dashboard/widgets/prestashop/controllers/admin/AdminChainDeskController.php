@@ -3,7 +3,7 @@
  * AdminChainDeskController.php
  *
  * This file contains the AdminChainDeskController class, which is responsible for handling
- * administrative functions related to the ChainDesk module in PrestaShop.
+ * administrative functions related to the ChatsappAImodule in PrestaShop.
  *
  * @author chaindesk
  * @copyright chaindesk

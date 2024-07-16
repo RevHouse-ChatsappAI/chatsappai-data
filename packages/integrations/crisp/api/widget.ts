@@ -71,7 +71,7 @@ CrispClient.authenticateTier(
 //       from: 'operator',
 //       origin: 'chat',
 //       user: {
-//         nickname: 'Chaindesk',
+//         nickname: 'ChatsappAI',
 //         avatar: 'https://chaindesk.ai/logo.png',
 //       },
 //       stealth: true,

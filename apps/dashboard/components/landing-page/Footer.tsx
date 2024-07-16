@@ -182,7 +182,7 @@ export function Footer({
                 </a>
               ))}
             </div>
-            <p>Made in France 🇫🇷</p>
+            <p>Made in Argentina 🇦🇷</p>
           </div>
           <div className="grid grid-cols-1 gap-8 mt-16 xl:col-span-2 xl:mt-0">
             <div
@@ -294,7 +294,7 @@ export function Footer({
         </div>
         <div className="pt-8 mt-16 border-t border-white/10 sm:mt-20 lg:mt-24">
           <p className="text-xs leading-5 text-gray-400">
-            Copyright &copy; {new Date().getFullYear()} Chaindesk - All rights
+            Copyright &copy; {new Date().getFullYear()} ChatsappAI- All rights
             reserved.
           </p>
         </div>

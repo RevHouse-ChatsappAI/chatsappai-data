@@ -35,7 +35,7 @@ export const FooterImpl: React.FC = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.copyright}>
-        Copyright {new Date().getFullYear()} Chaindesk.ai
+        Copyright {new Date().getFullYear()} ChatsappAI.com
       </div>
 
       <div className={styles.settings}>

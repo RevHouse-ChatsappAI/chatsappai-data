@@ -351,7 +351,7 @@ export default function Layout(props: Props) {
   return (
     <>
       <SEO
-        title="Dashboard | Chaindesk."
+        title="Dashboard | ChatsappAI."
         description="Build your own ChatGPT Chat Bot for your business."
         baseUrl={appUrl}
         uri={router.pathname}
@@ -406,7 +406,7 @@ export default function Layout(props: Props) {
                 className="w-full"
                 href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`This is a game changer! 
           
-          Chaindesk has transformed the way we handle customer queries with its next-gen AI native solution. Definitely a game-changer!
+          ChatsappAIhas transformed the way we handle customer queries with its next-gen AI native solution. Definitely a game-changer!
           
           Find out more: https://www.chaindesk.ai`)}`}
               >
@@ -532,7 +532,7 @@ export default function Layout(props: Props) {
               >
                 <Logo className="w-10" />
                 <Typography component="h1" fontWeight="xl">
-                  Chaindesk
+                  ChatsappAI
                 </Typography>
               </Box>
             </Stack>

@@ -41,7 +41,7 @@ export default function Features02() {
               </em>
             </h2>
             <p className="mb-8 text-lg text-zinc-500">
-              {`Thousands of businesses worldwide are using Chaindesk Generative
+              {`Thousands of businesses worldwide are using ChatsappAIGenerative
               AI platform.`}
               <br></br>
               {`Don't get left behind - start building your

@@ -12,10 +12,10 @@ import axios from 'axios';
 
   const queries = [
     'Hi',
-    `What's Chaindesk?`,
+    `What's ChatsappAI?`,
     `georges@chaindesk.ai +33661838314`,
     `Yes that's correct`,
-    `What's Chaindesk?`,
+    `What's ChatsappAI?`,
     `Perfect that's all I need`,
   ];
   const url =

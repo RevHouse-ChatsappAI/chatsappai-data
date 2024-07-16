@@ -21,8 +21,8 @@ export default function FormPage(props: { agent: Agent }) {
   return (
     <>
       <SEO
-        title={`AI powered conversational forms | Chaindesk.ai`}
-        description={`Build ChatGPT-powered conversational forms with Chaindesk.ai`}
+        title={`AI powered conversational forms | ChatsappAI.com`}
+        description={`Build ChatGPT-powered conversational forms with ChatsappAI.com`}
         url={`https://development.chatsappai.com/forms/${formId}`}
       />
       {/*

@@ -9,18 +9,18 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Chaindesk | Blog',
-  domain: 'www.chaindesk.ai/blog',
-  author: 'Georges Petrov',
+  name: 'ChatsappAI | Blog',
+  domain: 'www.development.chatsappai.com/blog',
+  author: 'Gonzalo Arrayaran',
 
   // open graph metadata (optional)
   description: 'AI-Powered support ecosystem',
 
   // social usernames (optional)
-  twitter: 'chaindesk_ai',
+  twitter: 'chatsappai',
   // github: 'transitive-bullshit',
-  linkedin: 'company/chaindesk',
-  discord: 'https://discord.gg/FSWKj49ckX',
+  linkedin: 'company/chatsappai',
+  discord: '',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`

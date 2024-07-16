@@ -241,7 +241,7 @@ function AccountCard({}: Props) {
                 className="w-full"
                 href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`This is a game changer! 
       
-      Chaindesk has transformed the way we handle customer queries with its next-gen AI native solution. Definitely a game-changer!
+      ChatsappAIhas transformed the way we handle customer queries with its next-gen AI native solution. Definitely a game-changer!
       
       Find out more: https://www.chaindesk.ai`)}`}
               >

@@ -190,9 +190,9 @@ export default function FormsPage() {
         startDecorator={<InfoRoundedIcon />}
         sx={{ mb: 2 }}
       >
-        Receive your support emails in Chaindesk. Emails are working as
+        Receive your support emails in ChatsappAI. Emails are working as
         redirections, forwarding for instance contact@yourcompany.com to your
-        Chaindesk inbox. You will love it!
+        ChatsappAIinbox. You will love it!
       </Alert>
 
       {getMailInboxesQuery.data && (

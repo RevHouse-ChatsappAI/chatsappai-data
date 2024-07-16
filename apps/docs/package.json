@@ -1,7 +1,7 @@
 {
   "name": "docs",
   "version": "1.0.174",
-  "description": "Chaindesk Documentation",
+  "description": "ChatsappAIDocumentation",
   "scripts": {
     "dev": "mintlify dev --port 3333",
     "check": "mintlify broken-links"

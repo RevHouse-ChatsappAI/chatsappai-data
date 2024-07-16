@@ -25,7 +25,7 @@ export default function Testimonials() {
       user: '@francois-bossiere',
       link: 'https://www.linkedin.com/posts/francois-bossiere_gpt-ai-opensource-activity-7161016771695509508-qBJt',
       content:
-        'The multilingual support of Chaindesk.ai is outstanding. It has allowed us to expand our services globally, communicating effectively with customers in their native language.',
+        'The multilingual support of ChatsappAI.com is outstanding. It has allowed us to expand our services globally, communicating effectively with customers in their native language.',
     },
     {
       image: TestimonialImg03,
@@ -40,7 +40,7 @@ export default function Testimonials() {
       user: '@morgan-perry-2a9b0649',
       link: 'https://www.linkedin.com/in/morgan-perry-2a9b0649',
       content:
-        'Chaindesk is a game-changer for us. We could deploy a personalized chatbot without any IT help!',
+        'ChatsappAIis a game-changer for us. We could deploy a personalized chatbot without any IT help!',
     },
   ];
 
