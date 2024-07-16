@@ -107,7 +107,7 @@ export default function Layout(props: Props) {
 
   const appLinks = React.useMemo(() => {
     return [
-      ...(product === 'chaindesk'
+      ...(product === 'chatsappai'
         ? [
             {
               label: 'Inbox',
@@ -381,7 +381,7 @@ export default function Layout(props: Props) {
             p: 0,
           }}
         >
-          <Alert
+          {/* <Alert
             size="sm"
             variant="soft"
             color="warning"
@@ -408,7 +408,7 @@ export default function Layout(props: Props) {
           
           ChatsappAIhas transformed the way we handle customer queries with its next-gen AI native solution. Definitely a game-changer!
           
-          Find out more: https://www.chaindesk.ai`)}`}
+          Find out more: https://www.chatsappai.com`)}`}
               >
                 <Button
                   color="neutral"
@@ -434,7 +434,7 @@ export default function Layout(props: Props) {
                 </Button>
               </a>
             </Stack>
-          </Alert>
+          </Alert> */}
         </Stack>
       )}
 

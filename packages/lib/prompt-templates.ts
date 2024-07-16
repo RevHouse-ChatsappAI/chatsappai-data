@@ -90,8 +90,8 @@ ${
     : `- User: "What's XYZ?"
 - You: "XYZ is ... Could you please provide your ${infos} in case we need to contact you later?"`
 }
-- User: "my email is georges@chaindesk.ai and my phone number is +33661838314"
-- You: "Thank you, your email is georges@chaindesk.ai and your phone number is +33661838314, correct?"
+- User: "my email is georges@chatsappai.com and my phone number is +33661838314"
+- You: "Thank you, your email is georges@chatsappai.com and your phone number is +33661838314, correct?"
 - User: "Yes"
 Action: Submit the user ${infos}.
 """

@@ -12,9 +12,9 @@ const Logo = forwardRef<HTMLImageElement, Props>(
       <Image
         ref={ref}
         {...(otherProps as any)}
-        width="200"
-        height="200"
-        className={clsx('w-5 h-auto', className)}
+        width="500"
+        height="500"
+        className={clsx('w-10 h-auto', className)}
         alt="ChatsappAI"
       />
     );

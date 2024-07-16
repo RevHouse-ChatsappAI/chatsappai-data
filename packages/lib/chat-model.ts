@@ -15,7 +15,7 @@ export default class ChatModel {
     this.openai = new OpenAI({
       ...options,
       defaultHeaders: {
-        'HTTP-Referer': 'https://www.chaindesk.ai/', // Optional, for including your app on openrouter.ai rankings.
+        'HTTP-Referer': 'https://www.chatsappai.com/', // Optional, for including your app on openrouter.ai rankings.
         'X-Title': 'ChatsappAI', // Optional. Shows in rankings on openrouter.ai.
         ...options?.defaultHeaders,
       },

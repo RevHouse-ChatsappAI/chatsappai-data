@@ -9,7 +9,7 @@ import { experimental_extendTheme as extendMuiTheme } from '@mui/material/styles
 import type {} from '@mui/material/themeCssVarsAugmentation';
 import { deepmerge } from '@mui/utils';
 
-import { purple } from './colors';
+import { green } from './colors';
 import { createTheme, createThemeKeys } from './base';
 
 type MergedThemeCssVar = { [k in JoyThemeCssVar]: true };
@@ -63,14 +63,14 @@ const muiTheme = extendMuiTheme({
       palette: {
         primary: {
           // main: colors.blue[500],
-          ...purple,
+          ...green,
         },
       },
     },
     dark: {
       palette: {
         primary: {
-          ...purple,
+          ...green,
         },
       },
     },

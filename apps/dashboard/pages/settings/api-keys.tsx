@@ -125,7 +125,7 @@ export default function ApiKeysPage() {
                 </Link>
               }
             >
-              Learn more about the Datatberry API
+              Learn more about the ChatsappAI API
             </Alert>
             {getApiKeysQuery?.data?.map((each) => (
               <>

@@ -182,7 +182,7 @@ function AccountCard({}: Props) {
               fixed={3}
             />
 
-            {['chaindesk'].includes(product) && (
+            {['chatsappai'].includes(product) && (
               <UsageGauge
                 value={session?.data?.organization?.nbAgents || 0}
                 max={
