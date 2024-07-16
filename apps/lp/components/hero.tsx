@@ -203,7 +203,7 @@ export default function Hero() {
                     <div>
                       <Link
                         className="w-full shadow btn text-zinc-100 bg-zinc-900 hover:bg-zinc-800"
-                        href="https://app.chaindesk.ai/agents"
+                        href="https://development.chatsappai.com/agents"
                       >
                         Start for free
                       </Link>

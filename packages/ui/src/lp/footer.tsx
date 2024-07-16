@@ -250,7 +250,7 @@ export default function Footer() {
                 <li>
                   <a
                     className="transition text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-400"
-                    href="https://docs.chaindesk.ai/"
+                    href="https://docs.chatsappai.com/"
                     target="_blank"
                   >
                     Documentation
@@ -277,7 +277,7 @@ export default function Footer() {
                 <li>
                   <a
                     className="transition text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-400"
-                    href="https://docs.chaindesk.ai/privacy/gdpr"
+                    href="https://docs.chatsappai.com/privacy/gdpr"
                     target="_blank"
                   >
                     GDPR
@@ -286,7 +286,7 @@ export default function Footer() {
                 <li>
                   <a
                     className="transition text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-400"
-                    href="https://docs.chaindesk.ai/privacy/privacy-policy"
+                    href="https://docs.chatsappai.com/privacy/privacy-policy"
                     target="_blank"
                   >
                     Privacy
@@ -295,7 +295,7 @@ export default function Footer() {
                 <li>
                   <a
                     className="transition text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-400"
-                    href="https://docs.chaindesk.ai/privacy/terms"
+                    href="https://docs.chatsappai.com/privacy/terms"
                     target="_blank"
                   >
                     Terms

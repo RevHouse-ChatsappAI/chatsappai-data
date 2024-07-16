@@ -160,7 +160,7 @@ export const ModelConfig: Record<
   },
 };
 
-export const appUrl = 'https://app.chaindesk.ai';
+export const appUrl = 'https://development.chatsappai.com';
 export const apiUrl = 'https://api.chaindesk.ai';
 // export const appUrl = process.env.NEXT_PUBLIC_DASHBOARD_URL as string;
 // export const apiUrl = process.env.NEXT_PUBLIC_API_URL as string;

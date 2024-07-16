@@ -103,7 +103,7 @@ function MobileNavigation() {
             <MobileNavLink href="/help" target={'_blank'}>
               Help Center
             </MobileNavLink>
-            <MobileNavLink href="https://docs.chaindesk.ai/" target={'_blank'}>
+            <MobileNavLink href="https://docs.chatsappai.com/" target={'_blank'}>
               API Docs
             </MobileNavLink> */}
 
@@ -195,7 +195,7 @@ export function Header() {
                 {/* <NavLink href="https://github.com/gmpetrov/chaindesk" target={'_blank'}>
                 GitHub
               </NavLink> */}
-                {/* <NavLink href="https://docs.chaindesk.ai/" target={'_blank'}>
+                {/* <NavLink href="https://docs.chatsappai.com/" target={'_blank'}>
                 Docs
               </NavLink> */}
                 {/* <NavLink
@@ -209,15 +209,15 @@ export function Header() {
             </div>
             <div className="flex gap-x-5 items-center md:gap-x-8">
               {/* <div className="hidden md:block">
-              <NavLink href="https://app.chaindesk.ai">Sign in</NavLink>
+              <NavLink href="https://development.chatsappai.com">Sign in</NavLink>
             </div> */}
-              {/* <Button target="_blank" href="https://app.chaindesk.ai/signin" color="blue">
+              {/* <Button target="_blank" href="https://development.chatsappai.com/signin" color="blue">
               <span>
                 Sign In
               </span>
             </Button> */}
               {/* Change following link href with /signin for local signin */}
-              {/* <Link href="https://app.chaindesk.ai/signin?product=chatbotgpt"> */}
+              {/* <Link href="https://development.chatsappai.com/signin?product=chatbotgpt"> */}
               <Link href={`${appUrl}/signin?product=${hostname}`}>
                 <Button variant="outlined" sx={{ borderRadius: 100 }}>
                   Sign In

@@ -72,7 +72,7 @@ function chaindesk_plugin_settings_page()
     $http_callback = esc_url($protocol . $host . $request_uri);
 
     // $base_url = "http://localhost:3000";
-    $base_url = "https://app.chaindesk.ai";
+    $base_url = "https://development.chatsappai.com";
     $add_to_chaindesk_link = $base_url."/integrations/wordpress/config?callback=$http_callback&siteurl=".get_option('siteurl')."&agentId=".$agent_id;
 
 

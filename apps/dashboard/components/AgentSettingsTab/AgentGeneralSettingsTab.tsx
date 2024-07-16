@@ -81,7 +81,7 @@ export default function AgentGeneralSettingsTab(props: Props) {
             color="neutral"
             startDecorator={<HelpOutlineRoundedIcon />}
             endDecorator={
-              <Link href="https://docs.chaindesk.ai" target="_blank">
+              <Link href="https://docs.chatsappai.com" target="_blank">
                 <Button
                   variant="plain"
                   size="sm"

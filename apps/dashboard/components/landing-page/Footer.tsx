@@ -36,22 +36,22 @@ const navigation = {
     // },
     {
       name: 'Documentation',
-      href: 'https://docs.chaindesk.ai',
+      href: 'https://docs.chatsappai.com',
       target: '_blank',
     },
     {
       name: 'GDPR',
-      href: 'https://docs.chaindesk.ai/privacy/gdpr',
+      href: 'https://docs.chatsappai.com/privacy/gdpr',
       target: '_blank',
     },
     {
       name: 'Privacy',
-      href: 'https://docs.chaindesk.ai/privacy/privacy-policy',
+      href: 'https://docs.chatsappai.com/privacy/privacy-policy',
       target: '_blank',
     },
     {
       name: 'Terms',
-      href: 'https://docs.chaindesk.ai/privacy/terms',
+      href: 'https://docs.chatsappai.com/privacy/terms',
       target: '_blank',
     },
     // { name: 'Guides', href: '#' },
