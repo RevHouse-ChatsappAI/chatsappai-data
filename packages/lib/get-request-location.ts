@@ -4,7 +4,7 @@ const mock = {
   'cf-ipcity': 'Paris',
   'cf-ipcountry': 'FR',
   'x-vercel-ip-country': 'FR',
-  'cf-region': 'Ãle-de-France',
+  'cf-region': 'Ãle-de-Argentina',
   'cf-region-code': 'IDF',
   'cf-postal-code': '75019',
   'cf-timezone': 'Europe/Paris',

@@ -96,7 +96,7 @@ function MobileNavigation() {
             <MobileNavLink href="/help" target={'_blank'}>
               Help Center
             </MobileNavLink>
-            <MobileNavLink href="https://docs.chaindesk.ai/" target={'_blank'}>
+            <MobileNavLink href="https://docs.chatsappai.com/" target={'_blank'}>
               API Docs
             </MobileNavLink>
             <MobileNavLink
@@ -140,7 +140,7 @@ export function Header() {
           <div className="inline-flex items-center space-x-1">
             <CheckIcon className="w-4 font-bold text-yellow-400" />
 
-            <span>Founded in France. We respect your privacy.</span>
+            <span>Founded in Argentina. We respect your privacy.</span>
           </div>
           <div className="inline-flex items-center space-x-1">
             <div className="inline-flex items-center">
@@ -212,7 +212,7 @@ export function Header() {
                 {/* <NavLink href="https://github.com/gmpetrov/chaindesk" target={'_blank'}>
                 GitHub
               </NavLink> */}
-                {/* <NavLink href="https://docs.chaindesk.ai/" target={'_blank'}>
+                {/* <NavLink href="https://docs.chatsappai.com/" target={'_blank'}>
                 Docs
               </NavLink> */}
 
@@ -221,9 +221,9 @@ export function Header() {
             </div>
             <div className="flex gap-x-5 items-center md:gap-x-8">
               {/* <div className="hidden md:block">
-              <NavLink href="https://app.chaindesk.ai">Sign in</NavLink>
+              <NavLink href="https://development.chatsappai.com">Sign in</NavLink>
             </div> */}
-              {/* <Button target="_blank" href="https://app.chaindesk.ai/signin" color="blue">
+              {/* <Button target="_blank" href="https://development.chatsappai.com/signin" color="blue">
               <span>
                 Sign In
               </span>

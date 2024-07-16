@@ -50,7 +50,7 @@ const createReport = async (org: Organization) => {
 
   await mailer.sendMail({
     from: {
-      name: 'Chaindesk',
+      name: 'ChatsappAI',
       address: process.env.EMAIL_FROM!,
     },
     to: ownerEmail,

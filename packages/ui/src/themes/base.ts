@@ -33,7 +33,7 @@ import {
   ZIndex,
 } from '@mui/material/styles';
 
-import { purple } from './colors';
+import { green } from './colors';
 
 declare module '@mui/joy/styles' {
   interface Palette {
@@ -204,12 +204,12 @@ export const createTheme = (props: { container?: any; prefix?: string } = {}) =>
     colorSchemes: {
       dark: {
         palette: {
-          primary: purple,
+          primary: green,
         },
       },
       light: {
         palette: {
-          primary: purple,
+          primary: green,
           neutral: {
             solidBg: '#000',
           },

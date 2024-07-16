@@ -31,7 +31,7 @@ const baseUrl = process.env.VERCEL_URL
   : '';
 
 export const VercelInviteUserEmail = ({
-  agentName = 'Chaindesk',
+  agentName = 'ChatsappAI',
   ctaLink = '',
   messages = [
     {

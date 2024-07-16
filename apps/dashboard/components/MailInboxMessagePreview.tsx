@@ -74,7 +74,7 @@ Best regards,`}
                 target="_blank"
                 style={{ textDecoration: 'underline' }}
               >
-                Chaindesk
+                ChatsappAI
               </a>
             </Typography>
           )}

@@ -9,7 +9,7 @@ export default function CSPricingPage() {
     <>
       <SEO
         title="Plans for Teams of All Sizes"
-        description="Choose an affordable plan with Chaindesk. Our offerings include Discover, Startup, Pro, and Enterprise levels, each packed with features for engaging your audience, creating customer loyalty, and driving sales. Free plan included!"
+        description="Choose an affordable plan with ChatsappAI. Our offerings include Discover, Startup, Pro, and Enterprise levels, each packed with features for engaging your audience, creating customer loyalty, and driving sales. Free plan included!"
         uri={'/pricing'}
       />
       <Header />

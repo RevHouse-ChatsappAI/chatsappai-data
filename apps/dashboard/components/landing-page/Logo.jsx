@@ -10,13 +10,13 @@ export function Logo(props) {
       )}
     >
       <Image
-        width="100"
-        height="100"
+        width="500"
+        height="500"
         className={clsx(props.className)}
         src="/logo.png"
         alt=""
       />
-      <span className="text-xl">Chaindesk</span>
+      <span className="text-xl">ChatsappAI</span>
       {/* <Image width="80" height="100" className={clsx(props.className)} src="/app-logo-dark-chatgpt.png" alt="" /> */}
     </div>
   );

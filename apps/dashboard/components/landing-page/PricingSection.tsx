@@ -36,7 +36,7 @@ const tiers = [
       // `Data processing limited to ${accountConfig['level_0'].limits
       //   .maxDataProcessing / 1000000}MB / month`,
       'Manual data synching',
-      // 'Access to Chaindesk API',
+      // 'Access to ChatsappAIAPI',
       // 'ChatGPT plugin',
     ],
     mostPopular: false,
@@ -73,7 +73,7 @@ const tiers = [
   {
     name: 'Growth',
     id: 'tier-startup',
-    href: 'https://app.chaindesk.ai/settings/billing',
+    href: 'https://development.chatsappai.com/settings/billing',
     price: { monthly: '$25', annually: '$250' },
     description: 'A plan that scales with your rapidly growing business.',
     features: [
@@ -120,7 +120,7 @@ const tiers = [
       }MB / file`,
       // `Data processing limited to ${accountConfig['level_2'].limits
       //   .maxDataProcessing / 1000000}MB / month`,
-      'Access to Chaindesk API',
+      'Access to ChatsappAIAPI',
       'Auto synch datasources',
       // 'ChatGPT plugin',
       'Access to WhatsApp Plugin',
@@ -151,7 +151,7 @@ const tiers = [
       }MB / file`,
       // `Data processing limited to ${accountConfig['level_3'].limits
       //   .maxDataProcessing / 1000000}MB / month`,
-      'Access to Chaindesk API',
+      'Access to ChatsappAIAPI',
       'Auto synch datasources',
       // 'ChatGPT plugin',
       `Website loader limited to  ${accountConfig['level_3'].limits.maxWebsiteURL} Pages`,
@@ -180,7 +180,7 @@ const tiers = [
   //     }MB / file`,
   //     // `Data processing limited to ${accountConfig['level_4'].limits
   //     //   .maxDataProcessing / 1000000}MB / month`,
-  //     'Access to Chaindesk API',
+  //     'Access to ChatsappAIAPI',
   //     'Auto synch datasources',
   //     // 'ChatGPT plugin',
   //     `Website loader limited to  ${accountConfig['level_4'].limits.maxWebsiteURL} Pages`,
@@ -326,7 +326,7 @@ export default function PricingSection() {
                     key={feature}
                     className={clsx('flex gap-x-3', {
                       'text-green-400':
-                        feature.includes('Access to Chaindesk API') ||
+                        feature.includes('Access to ChatsappAIAPI') ||
                         feature.includes('Auto synch') ||
                         feature.includes('ChatGPT') ||
                         feature.includes('Crisp Plugin') ||

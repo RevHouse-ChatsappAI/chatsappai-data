@@ -1,6 +1,6 @@
 const baseApiUrl = process.env.API_URL
   ? process.env.API_URL
-  : 'https://app.chaindesk.ai';
+  : 'https://development.chatsappai.com';
 
 module.exports = {
   type: 'custom',
@@ -18,10 +18,10 @@ module.exports = {
       computed: false,
       key: 'api_key',
       required: false,
-      label: 'Chaindesk API Key',
+      label: 'ChatsappAIAPI Key',
       type: 'password',
       helpText:
-        'Your Chaindesk API Key can be found here https://app.chaindesk.ai/settings/api-keys',
+        'Your ChatsappAIAPI Key can be found here https://development.chatsappai.com/settings/api-keys',
     },
   ],
   customConfig: {},

@@ -1,7 +1,7 @@
 {
   "name": "@databerry/chat-bubble",
   "version": "1.0.142",
-  "description": "Chaindesk Chat Bubble Widget",
+  "description": "ChatsappAIChat Bubble Widget",
   "main": "dist/chatbox/legacy.js",
   "scripts": {},
   "repository": {

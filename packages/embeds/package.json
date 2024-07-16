@@ -1,7 +1,7 @@
 {
   "name": "@chaindesk/embeds",
   "version": "1.0.217",
-  "description": "Chaindesk Embeds",
+  "description": "ChatsappAIEmbeds",
   "main": "dist/chatbox/index.js",
   "scripts": {
     "dev": "rm -rf dist && mkdir -p dist && concurrently \"node esbuild.config.mjs\"",

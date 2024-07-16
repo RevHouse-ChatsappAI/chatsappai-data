@@ -135,7 +135,7 @@ function Body({ hero2 }: Props) {
         label="Tailored to your business"
         title={'Trustworthy AI trained on your data'}
         // description={
-        //   "Chaindesk's AI is trained on your data to provide the best answers to your customers."
+        //   "ChatsappAI's AI is trained on your data to provide the best answers to your customers."
         // }
         items={[
           {
@@ -292,7 +292,7 @@ function Body({ hero2 }: Props) {
         mediaUrl="/landing-page/eu-flag.png"
         items={[
           {
-            name: 'Founded in France',
+            name: 'Founded in Argentina',
             description: `All servers and databases are located in Europe.`,
             icon: CircleStackIcon,
           },

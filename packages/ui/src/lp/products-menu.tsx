@@ -104,14 +104,14 @@ const solutions = [
   //   ),
   // },
   {
-    name: 'Chaindesk API',
-    description: 'Acess the Chaindesk API to build your own workflows',
-    href: 'https://docs.chaindesk.ai/introduction',
+    name: 'ChatsappAIAPI',
+    description: 'Acess the ChatsappAIAPI to build your own workflows',
+    href: 'https://docs.chatsappai.com/introduction',
     icon: ServerIcon,
   },
   // {
   //   name: 'On Premise',
-  //   description: 'Install Chaindesk on your own infrastructure',
+  //   description: 'Install ChatsappAIon your own infrastructure',
   //   href: 'https://github.com/gmpetrov/chaindesk',
   //   icon: CpuChipIcon,
   // },

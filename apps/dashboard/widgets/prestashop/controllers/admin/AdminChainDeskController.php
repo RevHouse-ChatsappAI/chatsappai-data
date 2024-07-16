@@ -3,7 +3,7 @@
  * AdminChainDeskController.php
  *
  * This file contains the AdminChainDeskController class, which is responsible for handling
- * administrative functions related to the ChainDesk module in PrestaShop.
+ * administrative functions related to the ChatsappAImodule in PrestaShop.
  *
  * @author chaindesk
  * @copyright chaindesk
@@ -57,7 +57,7 @@ class AdminChainDeskController extends ModuleAdminController
     {
         $agentId = Configuration::get('CHAINDESK_AGENT_ID');
         $http_callback = Tools::getShopDomainSsl(true, true) . $_SERVER['REQUEST_URI'];
-        $base_url = 'https://app.chaindesk.ai'; // Use single quotes for simple strings
+        $base_url = 'https://development.chatsappai.com'; // Use single quotes for simple strings
 
         return $base_url . '/integrations/prestashop/config?callback=' . urlencode($http_callback) . '&siteurl=' . urlencode(Tools::getShopDomainSsl(true, true)) . '&agentId=' . $agentId;
     }

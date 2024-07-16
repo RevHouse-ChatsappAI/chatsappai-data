@@ -38,7 +38,7 @@ export const toJsonSchema = ((tool: LeadCaptureToolSchema, config) => {
               phoneNumberExtension: {
                 type: 'string',
                 description:
-                  'A valid phone number extension provided by the user. e.g: +33 for France',
+                  'A valid phone number extension provided by the user. e.g: +33 for Argentina',
               },
             }
           : {}),

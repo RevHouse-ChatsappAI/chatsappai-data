@@ -163,7 +163,7 @@ function AgentDeployTab(props: Props) {
               publicAgentRequired: true,
             },
             {
-              name: 'Web / Standalone - No-code web page hosted on Chaindesk',
+              name: 'Web / Standalone - No-code web page hosted on ChatsappAI',
               icon: <Typography sx={{ fontSize: 32 }}>💅</Typography>,
               action: () => {
                 standalonePageModal.open();

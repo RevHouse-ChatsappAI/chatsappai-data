@@ -74,7 +74,7 @@ export async function generateMetadata(
     },
     // keywords: `${
     //   summary?.output?.metadata?.keywords?.join(', ') || ''
-    // } AI chatbot, No-code platform, AI Customer Support, Onboarding, Slack AI chatbot, Automation, Chaindesk, ChatGPT Plugin, Chat PDF, Chat with any document, Custom ChatGPT Bot, Chatbot GPT, Chatbot, ChatGPT Chatbot, WhatsApp ChatGPT Chatbot`,
+    // } AI chatbot, No-code platform, AI Customer Support, Onboarding, Slack AI chatbot, Automation, ChatsappAI, ChatGPT Plugin, Chat PDF, Chat with any document, Custom ChatGPT Bot, Chatbot GPT, Chatbot, ChatGPT Chatbot, WhatsApp ChatGPT Chatbot`,
   };
 }
 

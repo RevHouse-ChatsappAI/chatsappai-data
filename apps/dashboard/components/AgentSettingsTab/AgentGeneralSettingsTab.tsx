@@ -73,7 +73,7 @@ export default function AgentGeneralSettingsTab(props: Props) {
 
       <SettingCard
         title="Agent ID"
-        description="Use the Agent ID to query the agent through Chaindesk API"
+        description="Use the Agent ID to query the agent through ChatsappAIAPI"
         disableSubmitButton
       >
         <Stack spacing={2}>
@@ -81,7 +81,7 @@ export default function AgentGeneralSettingsTab(props: Props) {
             color="neutral"
             startDecorator={<HelpOutlineRoundedIcon />}
             endDecorator={
-              <Link href="https://docs.chaindesk.ai" target="_blank">
+              <Link href="https://docs.chatsappai.com" target="_blank">
                 <Button
                   variant="plain"
                   size="sm"
@@ -92,7 +92,7 @@ export default function AgentGeneralSettingsTab(props: Props) {
               </Link>
             }
           >
-            Learn more about the Datatberry API
+            Learn more about the ChatsappAI API
           </Alert>
 
           <Alert

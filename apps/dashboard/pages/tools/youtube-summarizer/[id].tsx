@@ -100,7 +100,7 @@ export default function SummaryPage({ output }: SummaryPageProps) {
     <>
       <TopBar href="/tools/youtube-summarizer" />
       <SEO
-        title={`${title} | AI YouTube Summary | Chaindesk`}
+        title={`${title} | AI YouTube Summary | ChatsappAI`}
         description={
           content?.videoSummary ||
           'Generate YouTube video summaries instantly for free with AI'

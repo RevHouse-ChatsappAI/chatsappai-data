@@ -91,7 +91,7 @@ export default function Features03() {
                   className="text-lg text-zinc-500"
                   variants={defaultChildVariants}
                 >
-                  With Chaindesk you have all the tools you need to engage with
+                  With ChatsappAIyou have all the tools you need to engage with
                   your customers in one place.
                 </motion.p>
               </div>
@@ -153,7 +153,7 @@ export default function Features03() {
                       AI-Powered email support
                     </div>
                     <div className="text-zinc-500">
-                      {`Handle all your emails through Chaindesk's convenient dashboard. The Email Inbox uses AI too - it will assist you in resolving the issue faster.`}
+                      {`Handle all your emails through ChatsappAI's convenient dashboard. The Email Inbox uses AI too - it will assist you in resolving the issue faster.`}
                     </div>
                   </div>
                 </motion.button>
@@ -337,7 +337,7 @@ export default function Features03() {
                 </h3>
               </div>
               <p className="text-sm text-zinc-500">
-                Chaindesk retrains your AI chatbot automatically when your data
+                ChatsappAIretrains your AI chatbot automatically when your data
                 is updated.
               </p>
             </div>
@@ -407,7 +407,7 @@ export default function Features03() {
                 </h3>
               </div>
               <p className="text-sm text-zinc-500">
-                With Chaindesk you can take over the conversation at any time,
+                With ChatsappAIyou can take over the conversation at any time,
                 ensuring that your customers are always getting the best
                 possible support.
               </p>
@@ -434,7 +434,7 @@ export default function Features03() {
                 </h3>
               </div>
               <p className="text-sm text-zinc-500">
-                Founded in France, we respect your privacy. Your data is
+                Founded in Argentina, we respect your privacy. Your data is
                 encrypted in transit and at rest on secure servers.
               </p>
             </div>

@@ -1,6 +1,6 @@
 import { CustomContact } from '@chaindesk/lib/types';
 
-export interface ChaindeskFactory {
+export interface ChatsappAIFactory {
   initBubble: (props: {
     agentId: string;
     onMarkedAsResolved?(): any;

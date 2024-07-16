@@ -107,7 +107,7 @@ export default function Layout(props: Props) {
 
   const appLinks = React.useMemo(() => {
     return [
-      ...(product === 'chaindesk'
+      ...(product === 'chatsappai'
         ? [
             {
               label: 'Inbox',
@@ -249,7 +249,7 @@ export default function Layout(props: Props) {
     return [
       {
         label: 'Documentation',
-        route: 'https://docs.chaindesk.ai/',
+        route: 'https://docs.chatsappai.com/',
         icon: <ApiRoundedIcon style={{ fontSize: '18px' }} />,
         target: 'blank',
         isExperimental: false,
@@ -323,7 +323,7 @@ export default function Layout(props: Props) {
         window.location.hostname === 'chaindesk.ai'
       ) {
         window.location.href =
-          'https://app.chaindesk.ai' + window.location.pathname;
+          'https://development.chatsappai.com' + window.location.pathname;
       }
     }
   }, []);
@@ -351,7 +351,7 @@ export default function Layout(props: Props) {
   return (
     <>
       <SEO
-        title="Dashboard | Chaindesk."
+        title="Dashboard | ChatsappAI."
         description="Build your own ChatGPT Chat Bot for your business."
         baseUrl={appUrl}
         uri={router.pathname}
@@ -381,7 +381,7 @@ export default function Layout(props: Props) {
             p: 0,
           }}
         >
-          <Alert
+          {/* <Alert
             size="sm"
             variant="soft"
             color="warning"
@@ -406,9 +406,9 @@ export default function Layout(props: Props) {
                 className="w-full"
                 href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`This is a game changer! 
           
-          Chaindesk has transformed the way we handle customer queries with its next-gen AI native solution. Definitely a game-changer!
+          ChatsappAIhas transformed the way we handle customer queries with its next-gen AI native solution. Definitely a game-changer!
           
-          Find out more: https://www.chaindesk.ai`)}`}
+          Find out more: https://www.chatsappai.com`)}`}
               >
                 <Button
                   color="neutral"
@@ -434,7 +434,7 @@ export default function Layout(props: Props) {
                 </Button>
               </a>
             </Stack>
-          </Alert>
+          </Alert> */}
         </Stack>
       )}
 
@@ -532,7 +532,7 @@ export default function Layout(props: Props) {
               >
                 <Logo className="w-10" />
                 <Typography component="h1" fontWeight="xl">
-                  Chaindesk
+                  ChatsappAI
                 </Typography>
               </Box>
             </Stack>
@@ -558,7 +558,7 @@ export default function Layout(props: Props) {
         >
           <Box
             component={'iframe'}
-            src={'https://app.chaindesk.ai/forms/clqz46y9u003e8ipv0lvfcnsg'}
+            src={'https://development.chatsappai.com/forms/clqz46y9u003e8ipv0lvfcnsg'}
             frameBorder="0"
             sx={{
               width: '100%',

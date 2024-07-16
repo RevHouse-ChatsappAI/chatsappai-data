@@ -74,7 +74,7 @@ export default function BillingSettingsPage() {
         <FormControl id="plan" sx={{ gap: 1 }}>
           <FormLabel>Current Plan</FormLabel>
           {/* <Typography level="body-xs">
-            Use the api key to access the Chaindesk API
+            Use the api key to access the ChatsappAIAPI
           </Typography> */}
 
           <Card variant="outlined">

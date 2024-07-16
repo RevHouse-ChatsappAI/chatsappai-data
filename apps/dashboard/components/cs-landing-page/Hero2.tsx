@@ -81,7 +81,7 @@ export default function Hero() {
                   </span>
 
                   <Link
-                    href="https://docs.chaindesk.ai/integrations/whatsapp"
+                    href="https://docs.chatsappai.com/integrations/whatsapp"
                     style={{ background: 'none' }}
                     className="text-[10px]underline-offset-4 text-indigo-300 text-main-hover flex items-center gap-2 font-medium transition-all hover:underline"
                     target="_blank"
@@ -215,7 +215,7 @@ export default function Hero() {
                     </Stack>
                     <Typography textColor="text.secondary">
                       <b>+10K</b> companies have successfully <br></br>built
-                      their custom AI Agent with Chaindesk
+                      their custom AI Agent with ChatsappAI
                     </Typography>
                   </Stack>
                 </Box>

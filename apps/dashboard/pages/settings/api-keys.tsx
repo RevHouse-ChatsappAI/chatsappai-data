@@ -103,7 +103,7 @@ export default function ApiKeysPage() {
       <Box id="api-keys">
         <SettingCard
           title="API Keys"
-          description="Use the api key to access the Chaindesk API"
+          description="Use the api key to access the ChatsappAIAPI"
           cardProps={{
             sx: { maxWidth: 'md', mx: 'auto' },
           }}
@@ -114,7 +114,7 @@ export default function ApiKeysPage() {
               color="neutral"
               startDecorator={<HelpOutlineRoundedIcon />}
               endDecorator={
-                <Link href="https://docs.chaindesk.ai" target="_blank">
+                <Link href="https://docs.chatsappai.com" target="_blank">
                   <Button
                     variant="plain"
                     size="sm"
@@ -125,7 +125,7 @@ export default function ApiKeysPage() {
                 </Link>
               }
             >
-              Learn more about the Datatberry API
+              Learn more about the ChatsappAI API
             </Alert>
             {getApiKeysQuery?.data?.map((each) => (
               <>

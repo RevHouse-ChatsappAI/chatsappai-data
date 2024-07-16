@@ -78,7 +78,7 @@ function OrganizationForm({}: Props) {
         accountConfig[session?.organization?.currentPlan!]?.limits?.maxSeats
       ) {
         alert(
-          'You have reached the maximum number of seats for your plan. Please contact support@chaindesk.ai to upgrade your plan.'
+          'You have reached the maximum number of seats for your plan. Please contact support@chatsappai.com to upgrade your plan.'
         );
         return;
       }
@@ -106,7 +106,7 @@ function OrganizationForm({}: Props) {
         });
       } else {
         toast.error(
-          "Unable to send invite, please contact support@chaindesk.ai if it's persistent.",
+          "Unable to send invite, please contact support@chatsappai.com if it's persistent.",
           {
             duration: 5000,
           }

@@ -210,7 +210,7 @@ function PluginSettings({ datastore }: { datastore: Datastore }) {
           <FormLabel>Name for humans (required, 20 character max)</FormLabel>
           <Input
             control={methods.control as any}
-            placeholder="e.g. Chaindesk"
+            placeholder="e.g. ChatsappAI"
             {...methods.register('pluginName')}
           />
         </FormControl>
@@ -220,7 +220,7 @@ function PluginSettings({ datastore }: { datastore: Datastore }) {
           </FormLabel>
           <Input
             control={methods.control as any}
-            placeholder="e.g. Chaindesk is a no-code platform for building AI apps..."
+            placeholder="e.g. ChatsappAIis a no-code platform for building AI apps..."
             {...methods.register('pluginDescriptionForHumans')}
           />
         </FormControl>
@@ -406,7 +406,7 @@ function DatastoreSettings() {
             color="neutral"
             startDecorator={<HelpOutlineRoundedIcon />}
             endDecorator={
-              <Link href="https://docs.chaindesk.ai" target="_blank">
+              <Link href="https://docs.chatsappai.com" target="_blank">
                 <Button
                   variant="plain"
                   size="sm"
@@ -417,7 +417,7 @@ function DatastoreSettings() {
               </Link>
             }
           >
-            Learn more about the Datatberry API
+            Learn more about the ChatsappAI API
           </Alert>
 
           <Alert
@@ -449,7 +449,7 @@ function DatastoreSettings() {
               startDecorator={<HelpOutlineRoundedIcon />}
               endDecorator={
                 <Link
-                  href="https://docs.chaindesk.ai/integrations/chatgpt-plugin"
+                  href="https://docs.chatsappai.com/integrations/chatgpt-plugin"
                   target="_blank"
                 >
                   <Button

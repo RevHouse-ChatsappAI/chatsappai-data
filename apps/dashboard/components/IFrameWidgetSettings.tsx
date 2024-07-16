@@ -57,7 +57,7 @@ function RenderWidget({ agentId, config }: { agentId: string; config: any }) {
             return (
               <WidgetThemeProvider
                 emotionCache={cache}
-                prefix="chaindesk-iframe"
+                prefix="chatsappai-iframe"
               >
                 <ReactFrameStyleFix />
 

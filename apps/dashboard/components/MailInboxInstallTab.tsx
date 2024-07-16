@@ -47,7 +47,7 @@ function MailInboxInstallTab({ inboxId }: Props) {
                   </Stack>
                   <FormHelperText>
                     <Link
-                      href="https://docs.chaindesk.ai/email-inbox/get-started"
+                      href="https://docs.chatsappai.com/email-inbox/get-started"
                       target="_blank"
                     >
                       Full Documentation

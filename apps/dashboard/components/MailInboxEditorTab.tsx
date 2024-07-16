@@ -137,7 +137,7 @@ function MailInboxEditorTab({ inboxId }: Props) {
 
                 <Checkbox
                   checked={Boolean(values.showBranding)}
-                  label="Show Chaindesk Branding"
+                  label="Show ChatsappAIBranding"
                   {...methods.register('showBranding')}
                   disabled={!session?.organization?.isPremium}
                 />

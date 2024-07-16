@@ -17,7 +17,7 @@ openapi: 'POST /datasources'
 ### Example JS Code to create a Datasource of type 'file'
 
 ```js
-const apiUrl = 'https://app.chaindesk.ai/api';
+const apiUrl = 'https://development.chatsappai.com/api';
 const apiKey = 'XXX';
 const datastoreId = 'XXX';
 
@@ -50,7 +50,7 @@ const res = await fetch(`${apiUrl}/datasources`, {
 ### Example JS Code to create a Datasource of type 'web_page'
 
 ```js
-const apiUrl = 'https:/app.chaindesk.ai/api';
+const apiUrl = 'https:/development.chatsappai.com/api';
 const apiKey = 'XXX';
 const datastoreId = 'XXX';
 
@@ -74,7 +74,7 @@ const res = await fetch(`${apiUrl}/datasources`, {
 ### Example JS Code to create a Datasource of type 'web_site' with a sitemap
 
 ```js
-const apiUrl = 'https://app.chaindesk.ai';
+const apiUrl = 'https://development.chatsappai.com';
 const apiKey = 'XXX';
 const datastoreId = 'XXX';
 
@@ -83,10 +83,10 @@ const res = await fetch(`${apiUrl}/datasources`, {
   body: JSON.stringify({
     datastoreId,
     type: 'web_site',
-    name: 'Chaindesk Docs',
+    name: 'ChatsappAIDocs',
     config: {
       // Sitemap
-      sitemap: 'https://docs.chaindesk.ai/sitemap.xml',
+      sitemap: 'https://docs.chatsappai.com/sitemap.xml',
 
       // Or Auto Discovery
       source_url: 'https://docs.databerry.ai',

@@ -1,17 +1,17 @@
 openapi: 3.0.1
 info:
-  title: Chaindesk.ai - API OpenAPI specifications
+  title: ChatsappAI.com - API OpenAPI specifications
   description: |-
 
   termsOfService: http://chaindesk.ai/terms
   contact:
-    email: support@chaindesk.ai
+    email: support@chatsappai.com
   license:
     name: Apache 2.0
     url: http://www.apache.org/licenses/LICENSE-2.0.html
   version: 1.0.0
 servers:
-  - url: https://app.chaindesk.ai/api
+  - url: https://development.chatsappai.com/api
 tags:
   - name: agents
   - name: datastores

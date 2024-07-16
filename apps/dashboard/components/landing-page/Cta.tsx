@@ -11,7 +11,7 @@ export default function Cta() {
             Join the Generative AI Revolution
           </h2>
           <p className="max-w-xl mx-auto mt-6 text-lg leading-8 text-gray-300">
-            {`Thousands of businesses worldwide are using Chaindesk Generative AI platform to
+            {`Thousands of businesses worldwide are using ChatsappAIGenerative AI platform to
             solve business specific use-cases. Don't get left
             behind - start building your own custom AI chatbot today!`}
           </p>

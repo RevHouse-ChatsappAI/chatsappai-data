@@ -182,7 +182,7 @@ function AccountCard({}: Props) {
               fixed={3}
             />
 
-            {['chaindesk'].includes(product) && (
+            {['chatsappai'].includes(product) && (
               <UsageGauge
                 value={session?.data?.organization?.nbAgents || 0}
                 max={
@@ -241,7 +241,7 @@ function AccountCard({}: Props) {
                 className="w-full"
                 href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`This is a game changer! 
       
-      Chaindesk has transformed the way we handle customer queries with its next-gen AI native solution. Definitely a game-changer!
+      ChatsappAIhas transformed the way we handle customer queries with its next-gen AI native solution. Definitely a game-changer!
       
       Find out more: https://www.chaindesk.ai`)}`}
               >

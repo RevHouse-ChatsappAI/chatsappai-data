@@ -12,12 +12,12 @@ import YoutubeSummarizerForm from '@/components/youtube-summarizer/summarize-for
 
 const metaTitle = 'YouTube Video Summarizer powered by AI';
 const metaDescription =
-  'Get a summary of any YouTube video with our free AI YouTube video summarizer powered by ChatGPT and Chaindesk. Summarize any video in seconds.';
+  'Get a summary of any YouTube video with our free AI YouTube video summarizer powered by ChatGPT and ChatsappAI. Summarize any video in seconds.';
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_LANDING_PAGE_URL!),
   title: 'YouTube Video Summarizer powered by AI',
   description:
-    'Get a summary of any YouTube video with our free AI YouTube video summarizer powered by ChatGPT and Chaindesk. Summarize any video in seconds.',
+    'Get a summary of any YouTube video with our free AI YouTube video summarizer powered by ChatGPT and ChatsappAI. Summarize any video in seconds.',
   alternates: {
     canonical: '/tools/youtube-summarizer',
   },
@@ -64,12 +64,12 @@ export default async function YoutubeVideoSummarizer() {
     publisher: {
       '@context': process.env.NEXT_PUBLIC_LANDING_PAGE_URL,
       '@type': 'Organization',
-      name: 'Chaindesk',
-      legalName: 'Chaindesk',
+      name: 'ChatsappAI',
+      legalName: 'ChatsappAI',
       url: process.env.NEXT_PUBLIC_LANDING_PAGE_URL,
       logo: `${process.env.NEXT_PUBLIC_LANDING_PAGE_URL}/logo.png`,
       foundingDate: '2023',
-      founders: [{ '@type': 'Organization', name: 'Chaindesk' }],
+      founders: [{ '@type': 'Organization', name: 'ChatsappAI' }],
       address: {
         '@type': 'PostalAddress',
         streetAddress: "65 rue de l'Ourcq",
@@ -81,7 +81,7 @@ export default async function YoutubeVideoSummarizer() {
       contactPoint: {
         '@type': 'ContactPoint',
         contactType: 'customer support',
-        email: 'support@chaindesk.ai',
+        email: 'support@chatsappai.com',
       },
       sameAs: [process.env.NEXT_PUBLIC_LANDING_PAGE_URL],
     },

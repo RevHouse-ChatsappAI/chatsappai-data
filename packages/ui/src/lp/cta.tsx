@@ -41,7 +41,7 @@ export default function Features02() {
               </em>
             </h2>
             <p className="mb-8 text-lg text-zinc-500">
-              {`Thousands of businesses worldwide are using Chaindesk Generative
+              {`Thousands of businesses worldwide are using ChatsappAIGenerative
               AI platform.`}
               <br></br>
               {`Don't get left behind - start building your
@@ -51,7 +51,7 @@ export default function Features02() {
               <div>
                 <LinkWithUTMFromPath
                   className="w-full shadow btn text-zinc-100 bg-zinc-900 hover:bg-zinc-800"
-                  href={`https://app.chaindesk.ai/agents`}
+                  href={`https://development.chatsappai.com/agents`}
                 >
                   Start For Free
                 </LinkWithUTMFromPath>

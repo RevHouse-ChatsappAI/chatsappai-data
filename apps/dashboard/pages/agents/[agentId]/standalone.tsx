@@ -69,7 +69,7 @@ export default function AgentPage() {
   return (
     <>
       {/* <SEO
-        title={`${props?.agent?.name} - made with Chaindesk`}
+        title={`${props?.agent?.name} - made with ChatsappAI`}
         description={props?.agent?.description}
         url={`https://chaindesk.ai/@${props?.agent?.handle}`}
       /> */}
@@ -107,7 +107,7 @@ export default function AgentPage() {
                 <Typography level="body-sm">
                   Powered by{' '}
                   <Typography color="primary" fontWeight={'bold'}>
-                    Chaindesk
+                    ChatsappAI
                   </Typography>
                 </Typography>
               </Box>

@@ -66,7 +66,7 @@ function RenderWidget({ agentId, config }: any) {
             return (
               <WidgetThemeProvider
                 emotionCache={cache}
-                prefix="chaindesk-bubble"
+                prefix="chatsappai-bubble"
               >
                 <ReactFrameStyleFix />
 

@@ -24,7 +24,7 @@ export default function TopBar(props: Props) {
           >
             <Logo className="w-10" />
             <Typography component="h1" fontWeight="xl">
-              Chaindesk
+              ChatsappAI
             </Typography>
           </Box>
         </Link>
@@ -55,7 +55,7 @@ export default function TopBar(props: Props) {
         </Typography>
         <Link
           target="_blank"
-          href={`https://app.chaindesk.ai/agents?utm_source=landing_page&utm_medium=tool&utm_campaign=youtube_summarizer`}
+          href={`https://development.chatsappai.com/agents?utm_source=landing_page&utm_medium=tool&utm_campaign=youtube_summarizer`}
         >
           <Button
             size="sm"

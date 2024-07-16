@@ -211,7 +211,7 @@ function ChatBubble({ ...props }: BubbleProps) {
         !state.hasOpenOnce && (
           <Stack
             ref={initMessageRef}
-            className="chaindesk-init-messages"
+            className="chatsappai-init-messages"
             sx={{
               position: 'fixed',
               bottom: 100,
@@ -286,7 +286,7 @@ function ChatBubble({ ...props }: BubbleProps) {
         )}
 
       <Box
-        className="chaindesk-widget"
+        className="chatsappai-widget"
         sx={{
           // bgcolor: 'red',
           overflow: 'visible',
@@ -430,7 +430,7 @@ function ChatBubble({ ...props }: BubbleProps) {
               // color={'neutral'}
               ref={ref}
               variant="solid"
-              className="chaindesk-launcher"
+              className="chatsappai-launcher"
               onClick={() =>
                 setState({
                   isOpen: !state.isOpen,

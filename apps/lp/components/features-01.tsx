@@ -77,7 +77,7 @@ export default function Features01() {
             >
               <TextGenerateEffect
                 duration={0.5}
-                text={`Chaindesk's no-code platform makes it easy to train a custom ChatGPT chatbot on your company data in minutes.`}
+                text={`ChatsappAI's no-code platform makes it easy to train a custom ChatGPT chatbot on your company data in minutes.`}
               ></TextGenerateEffect>
             </motion.p>
           </div>

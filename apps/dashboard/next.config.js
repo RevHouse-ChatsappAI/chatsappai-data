@@ -47,7 +47,7 @@ const nextConfig = {
         has: [
           {
             type: 'host',
-            value: 'app.chaindesk.ai',
+            value: 'development.chatsappai.com',
           },
         ],
       },

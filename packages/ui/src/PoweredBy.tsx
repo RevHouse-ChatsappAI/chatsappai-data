@@ -27,7 +27,7 @@ function PoweredBy({}: Props) {
               color="primary"
               fontWeight="bold"
             >
-              ⚡️ Chaindesk
+              ⚡️ ChatsappAI
             </Typography>
           </Typography>
         </Box>

@@ -83,7 +83,7 @@ function IntegrationSettings({ onSubmitSuccess, agentId }: Props) {
         <Markdown>
           {`
 ### Instructions
-1. [Create a Telegram bot](https://docs.chaindesk.ai/integrations/telegram)
+1. [Create a Telegram bot](https://docs.chatsappai.com/integrations/telegram)
 2. Get yout bot HTTP token
 3. (optional) Add your bot to a Telegram channel
         `}

@@ -62,7 +62,7 @@ export const VercelInviteUserEmail = ({
               />
             </Section>
             <Heading className="text-black text-[24px] font-normal text-center p-0 my-[30px] mx-0">
-              Join <strong>{teamName}</strong> on <strong>Chaindesk</strong>
+              Join <strong>{teamName}</strong> on <strong>ChatsappAI</strong>
             </Heading>
             <Text className="text-black text-[14px] leading-[24px]">
               Hello {username},
@@ -76,7 +76,7 @@ export const VercelInviteUserEmail = ({
                 {invitedByEmail}
               </Link>{' '}
               has invited you to the <strong>{teamName}</strong> team on{' '}
-              <strong>Chaindesk</strong>.
+              <strong>ChatsappAI</strong>.
             </Text>
             {/* <Section>
               <Row>

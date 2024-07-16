@@ -42,9 +42,9 @@ const inter_tight = Inter_Tight({
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_LANDING_PAGE_URL!),
-  title: 'Chaindesk - ChatGPT AI Chat Bot for your business',
+  title: 'ChatsappAI- ChatGPT AI Chat Bot for your business',
   description:
-    'Chaindesk brings a no-code platform to create custom AI chatbots trained on your data. Our solution makes customer support easy and simplifies team workflows.',
+    'ChatsappAIbrings a no-code platform to create custom AI chatbots trained on your data. Our solution makes customer support easy and simplifies team workflows.',
   alternates: {
     canonical: '/',
   },

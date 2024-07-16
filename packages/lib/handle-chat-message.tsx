@@ -262,7 +262,7 @@ async function handleChatMessage({ agent, conversation, ...data }: Props) {
       await Promise.all([
         mailer.sendMail({
           from: {
-            name: 'Chaindesk',
+            name: 'ChatsappAI',
             address: process.env.EMAIL_FROM!,
           },
           to: email,
@@ -414,7 +414,7 @@ async function handleChatMessage({ agent, conversation, ...data }: Props) {
     try {
       await mailer.sendMail({
         from: {
-          name: 'Chaindesk',
+          name: 'ChatsappAI',
           address: process.env.EMAIL_FROM!,
         },
         to: ownerEmail,
