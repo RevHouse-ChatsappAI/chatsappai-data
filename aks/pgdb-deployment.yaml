@@ -25,26 +25,26 @@ spec:
         io.kompose.service: pgdb
     spec:
       containers:
-      - env:
-        - name: POSTGRES_DB
-          value: mydb
-        - name: POSTGRES_PASSWORD
-          value: password
-        - name: POSTGRES_USER
-          value: user
-        image: postgres
-        imagePullPolicy: ""
-        name: pgdb
-        ports:
-        - containerPort: 5432
-        resources: {}
-        volumeMounts:
-        - mountPath: /var/lib/postgresql/data
-          name: pgdb-data
+        - env:
+            - name: POSTGRES_DB
+              value: databerry
+            - name: POSTGRES_PASSWORD
+              value: password
+            - name: POSTGRES_USER
+              value: user
+          image: postgres
+          imagePullPolicy: ''
+          name: pgdb
+          ports:
+            - containerPort: 5432
+          resources: {}
+          volumeMounts:
+            - mountPath: /var/lib/postgresql/data
+              name: pgdb-data
       restartPolicy: Always
-      serviceAccountName: ""
+      serviceAccountName: ''
       volumes:
-      - name: pgdb-data
-        persistentVolumeClaim:
-          claimName: pgdb-data
+        - name: pgdb-data
+          persistentVolumeClaim:
+            claimName: pgdb-data
 status: {}
