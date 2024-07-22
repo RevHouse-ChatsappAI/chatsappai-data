@@ -1,13 +1,13 @@
 import { NextApiRequest } from 'next';
 
 const mock = {
-  'cf-ipcity': 'Paris',
-  'cf-ipcountry': 'FR',
-  'x-vercel-ip-country': 'FR',
+  'cf-ipcity': 'Buenos Aires',
+  'cf-ipcountry': 'ARG',
+  'x-vercel-ip-country': 'ARG',
   'cf-region': 'Ãle-de-Argentina',
   'cf-region-code': 'IDF',
   'cf-postal-code': '75019',
-  'cf-timezone': 'Europe/Paris',
+  'cf-timezone': 'America/Paris',
   'cf-ipcontinent': 'EU',
 } as const;
 

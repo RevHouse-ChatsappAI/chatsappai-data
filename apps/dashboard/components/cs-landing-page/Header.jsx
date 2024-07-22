@@ -209,15 +209,15 @@ export function Header() {
             </div>
             <div className="flex gap-x-5 items-center md:gap-x-8">
               {/* <div className="hidden md:block">
-              <NavLink href="https://development.chatsappai.com">Sign in</NavLink>
+              <NavLink href="https://http://dashboard.chatsappai.com/">Sign in</NavLink>
             </div> */}
-              {/* <Button target="_blank" href="https://development.chatsappai.com/signin" color="blue">
+              {/* <Button target="_blank" href="https://http://dashboard.chatsappai.com//signin" color="blue">
               <span>
                 Sign In
               </span>
             </Button> */}
               {/* Change following link href with /signin for local signin */}
-              {/* <Link href="https://development.chatsappai.com/signin?product=chatbotgpt"> */}
+              {/* <Link href="https://http://dashboard.chatsappai.com//signin?product=chatbotgpt"> */}
               <Link href={`${appUrl}/signin?product=${hostname}`}>
                 <Button variant="outlined" sx={{ borderRadius: 100 }}>
                   Sign In

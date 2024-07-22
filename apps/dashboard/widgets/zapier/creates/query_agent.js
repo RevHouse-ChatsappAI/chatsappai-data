@@ -4,7 +4,7 @@ zapier.tools.env.inject();
 
 const baseApiUrl = process.env.API_URL
   ? process.env.API_URL
-  : 'https://development.chatsappai.com';
+  : 'https://http://dashboard.chatsappai.com/';
 
 module.exports = {
   display: {

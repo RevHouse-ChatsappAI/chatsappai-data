@@ -7,7 +7,7 @@ module.exports = withBundleAnalyzer({
   basePath: '/blog',
   assetPrefix:
     process.env.NODE_ENV === 'production'
-      ? 'https://chaindesk-blog.vercel.app/blog'
+      ? 'https://chatsappai-blog.vercel.app/blog'
       : undefined,
   transpilePackages: ['@chaindesk/lib', '@chaindesk/ui'],
   images: {
@@ -20,9 +20,9 @@ module.exports = withBundleAnalyzer({
       'abs.twimg.com',
       's3.us-west-2.amazonaws.com',
       'transitivebullsh.it',
-      'development.chatsappai.com',
-      'www.development.chatsappai.com',
-      'chaindesk-blog.vercel.app',
+      'http://dashboard.chatsappai.com/',
+      'www.http://dashboard.chatsappai.com/',
+      'chatsappai-blog.vercel.app',
     ],
     formats: ['image/avif', 'image/webp'],
     dangerouslyAllowSVG: true,

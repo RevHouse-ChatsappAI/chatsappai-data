@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "chaindesk.ai - Connect custom data to large language models",
+  "name": "chatsappai.com - Connect custom data to large language models",
   "logo": {
     "dark": "/logo/dark.png",
     "light": "/logo/light.png"
@@ -23,7 +23,7 @@
   ],
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "https://chaindesk.ai/"
+    "url": "https://http://dashboard.chatsappai.com//"
   },
   "anchors": [
     {

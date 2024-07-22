@@ -159,7 +159,7 @@ found 102
     "nbMessages": 14
   },
   {
-    "email": "pierre@chaindesk.ai",
+    "email": "pierre@chatsappai.com",
     "nbAgents": 7,
     "nbDatastores": 7,
     "nbDatasources": 251,
@@ -243,7 +243,7 @@ found 102
     "nbMessages": 123
   },
   {
-    "email": "emmanueleffeteureka+chaindesk@gmail.com",
+    "email": "emmanueleffeteureka+chatsappai@gmail.com",
     "nbAgents": 2,
     "nbDatastores": 2,
     "nbDatasources": 5,

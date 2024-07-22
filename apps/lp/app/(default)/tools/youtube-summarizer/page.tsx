@@ -72,11 +72,11 @@ export default async function YoutubeVideoSummarizer() {
       founders: [{ '@type': 'Organization', name: 'ChatsappAI' }],
       address: {
         '@type': 'PostalAddress',
-        streetAddress: "65 rue de l'Ourcq",
-        addressLocality: 'Paris',
-        addressRegion: 'FR',
+        streetAddress: 'Amancio alcorta 3100',
+        addressLocality: 'Buenos Aires, Argentina',
+        addressRegion: 'ARG',
         postalCode: '75019',
-        addressCountry: 'FR',
+        addressCountry: 'ARG',
       },
       contactPoint: {
         '@type': 'ContactPoint',

@@ -70,7 +70,7 @@ Best regards,`}
             <Typography level="body-sm">
               Sent from{' '}
               <a
-                href="https://www.chaindesk.ai"
+                href="https://www.chatsappai.com"
                 target="_blank"
                 style={{ textDecoration: 'underline' }}
               >

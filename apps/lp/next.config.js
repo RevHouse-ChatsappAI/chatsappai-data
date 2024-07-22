@@ -50,7 +50,7 @@ const nextConfig = {
         has: [
           {
             type: 'host',
-            value: 'development.chatsappai.com',
+            value: 'http://dashboard.chatsappai.com/',
           },
         ],
       },

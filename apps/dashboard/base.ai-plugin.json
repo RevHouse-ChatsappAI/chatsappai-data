@@ -10,10 +10,10 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://development.chatsappai.com/.well-known/openapi.yaml",
+    "url": "https://http://dashboard.chatsappai.com//.well-known/openapi.yaml",
     "has_user_authentication": false
   },
-  "logo_url": "https://development.chatsappai.com/.well-known/logo.png",
+  "logo_url": "https://http://dashboard.chatsappai.com//.well-known/logo.png",
   "contact_email": "hello@chatsappai.com",
   "legal_info_url": "hello@chatsappai.com"
 }

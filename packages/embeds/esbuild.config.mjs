@@ -28,7 +28,8 @@ let ctx = await esbuild.context({
           'process.env.NODE_ENV': '"production"',
           'process.env.NEXT_PUBLIC_ASSETS_BASE_URL':
             '"https://cdn.jsdelivr.net/npm/@chaindesk/embeds@latest"',
-          'process.env.NEXT_PUBLIC_DASHBOARD_URL': '"https://development.chatsappai.com"',
+          'process.env.NEXT_PUBLIC_DASHBOARD_URL':
+            '"https://http://dashboard.chatsappai.com/"',
         }
       : {}),
   },

@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'ChatsappAI | Blog',
-  domain: 'www.development.chatsappai.com/blog',
+  domain: 'www.http://dashboard.chatsappai.com//blog',
   author: 'Gonzalo Arrayaran',
 
   // open graph metadata (optional)

@@ -47,7 +47,7 @@ const nextConfig = {
         has: [
           {
             type: 'host',
-            value: 'development.chatsappai.com',
+            value: 'http://dashboard.chatsappai.com/',
           },
         ],
       },
@@ -100,7 +100,7 @@ const nextConfig = {
           has: [
             {
               type: 'host',
-              value: 'www.chaindesk.ai',
+              value: 'http://dashboard.chatsappai.com/',
             },
           ],
         },
@@ -138,11 +138,11 @@ const nextConfig = {
         },
         {
           source: '/blog',
-          destination: 'https://chaindesk-blog.vercel.app/blog',
+          destination: 'https://chatsappai-blog.vercel.app/blog',
         },
         {
           source: '/blog/:path*',
-          destination: 'https://chaindesk-blog.vercel.app/blog/:path*',
+          destination: 'https://chatsappai-blog.vercel.app/blog/:path*',
         },
         {
           source: '/help',
@@ -182,7 +182,7 @@ const nextConfig = {
           has: [
             {
               type: 'host',
-              value: 'api.chaindesk.ai',
+              value: 'http://dashboard.chatsappai.com/',
             },
           ],
         },
@@ -192,7 +192,7 @@ const nextConfig = {
           has: [
             {
               type: 'host',
-              value: 'api.chaindesk.ai',
+              value: 'api.chatsappai.com',
             },
           ],
         },
@@ -206,7 +206,7 @@ const nextConfig = {
           has: [
             {
               type: 'host',
-              value: 'api.chaindesk.ai',
+              value: 'api.chatsappai.com',
             },
           ],
         },

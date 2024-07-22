@@ -77,7 +77,7 @@ const muiTheme = extendMuiTheme({
   },
 });
 
-export const THEME_PREFIX = 'chaindesk-dashboard';
+export const THEME_PREFIX = 'chatsappai-dashboard';
 
 export const themeKeys = createThemeKeys(THEME_PREFIX);
 

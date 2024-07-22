@@ -4,7 +4,7 @@ steps:
       [
         'build',
         '-t',
-        'gcr.io/databerry-378819/dashboard',
+        'chatsappaicontainer.azurecr.io/chatsappai:latest',
         '--build-arg=NEXT_PUBLIC_S3_BUCKET_NAME=$_NEXT_PUBLIC_S3_BUCKET_NAME',
         '--build-arg=NEXT_PUBLIC_DASHBOARD_URL=$_NEXT_PUBLIC_DASHBOARD_URL',
         '--build-arg=NEXT_PUBLIC_SLACK_CLIENT_ID=$_NEXT_PUBLIC_SLACK_CLIENT_ID',
@@ -21,40 +21,17 @@ steps:
         '--build-arg=SCOPE=$_SCOPE',
         '.',
       ]
-  # push the container image to Container Registry
+  # Push the container image to Azure Container Registry (ACR)
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/databerry-378819/dashboard']
+    args: ['push', 'chatsappaicontainer.azurecr.io/chatsappai:latest']
 
-  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
-    entrypoint: gcloud
-    args:
-      [
-        'run',
-        'deploy',
-        'databerry',
-        '--image',
-        'gcr.io/databerry-378819/dashboard',
-        '--region',
-        'us-east4',
-      ]
-  # - name: gcr.io/google.com/cloudsdktool/cloud-sdk
-  #   script: |
-  #     #!/usr/bin/env bash
-  #     jobs=$(gcloud beta run jobs list --format="value(name)")
-  #     for job in $jobs; do
-  #       if [[ $job == *"prod"* ]]; then
-  #         gcloud beta run jobs update $job --image=gcr.io/databerry-378819/dashboard --region=us-east4
-  #       fi
-  #     done
 images:
-  - 'gcr.io/databerry-378819/dashboard'
-# timeout: 1200s
-# options:
-# machineType: 'E2_STANDARD_8'
+  - 'chatsappaicontainer.azurecr.io/chatsappai:latest'
+
 substitutions:
   _SCOPE: 'dashboard'
-  _NEXT_PUBLIC_S3_BUCKET_NAME: 'databerry'
-  _NEXT_PUBLIC_DASHBOARD_URL: 'https://development.chatsappai.com'
+  _NEXT_PUBLIC_S3_BUCKET_NAME: 'chatsappai'
+  _NEXT_PUBLIC_DASHBOARD_URL: 'https://http://dashboard.chatsappai.com/'
   _NEXT_PUBLIC_SLACK_CLIENT_ID: '15098575894.5085094124864'
   _NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY: 'pk_live_51MsM5yIDmvRZDzsDzI5S7mTun6KE8Q1jVZf0yBRsvQldW4fGyWve1dpwVDt1yDV9DUQOK5fB1kSqScnThDfckrEd008M2OEgFp'
   _NEXT_PUBLIC_STRIPE_PAYMENT_LINK_LEVEL_1: 'https://buy.stripe.com/4gw17tegmdAp04UcMM'

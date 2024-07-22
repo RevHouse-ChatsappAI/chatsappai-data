@@ -1,8 +1,7 @@
 import { ChildProcess, spawn } from 'child_process';
 
-import { prisma } from '@chaindesk/prisma/client';
-
 import sleep from '@chaindesk/lib/sleep';
+import { prisma } from '@chaindesk/prisma/client';
 
 let p: ChildProcess | null = null;
 
@@ -19,7 +18,7 @@ const globalSetup = async () => {
   await prisma.user.create({
     data: {
       id: process.env.TEST_USER_ID,
-      email: 'jest@chaindesk.ai',
+      email: 'jest@chatsappai.com',
       usage: {
         create: {},
       },

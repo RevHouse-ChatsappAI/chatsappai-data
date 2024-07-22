@@ -49,7 +49,7 @@ function CSLandingPage({}: Props) {
         title="Resolve AI - Resolve 50% of your support tickets instantly"
         description="Resolve AI brings a no-code platform to create custom AI chatbots trained on your data. Our solution makes customer support easy and simplifies team workflow."
         baseUrl="https://www.resolveai.io"
-        ogImage="https://www.chaindesk.ai/api/og"
+        ogImage="https://www.chatsappai.com/api/og"
         uri="/"
       />
 
@@ -76,7 +76,7 @@ function CSLandingPage({}: Props) {
         />
       </Head>
 
-      <script
+      {/* <script
         type="module"
         dangerouslySetInnerHTML={{
           __html: `import Chatbox from 'https://cdn.jsdelivr.net/npm/@chaindesk/embeds@latest/dist/chatbox/index.js';
@@ -85,7 +85,7 @@ function CSLandingPage({}: Props) {
     agentId: 'clq6g5cuv000wpv8iddswwvnd',
   });`,
         }}
-      />
+      /> */}
 
       <Body />
 

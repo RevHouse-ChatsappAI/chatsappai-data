@@ -66,7 +66,7 @@ export default function IntegrationsPage({
         description={`Train and Integrate your AI Agent with your favorite tools and platforms: WhatsApp, Shopify, WordPress, and more.`}
         cta={{
           label: 'Get Started for Free',
-          url: 'https://development.chatsappai.com/agents',
+          url: 'https://http://dashboard.chatsappai.com//agents',
         }}
         // youtubeVideoId={product?.youtubeVideoId}
         // imageUrl={product?.imageUrl}

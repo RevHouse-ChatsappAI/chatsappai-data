@@ -96,7 +96,10 @@ function MobileNavigation() {
             <MobileNavLink href="/help" target={'_blank'}>
               Help Center
             </MobileNavLink>
-            <MobileNavLink href="https://docs.chatsappai.com/" target={'_blank'}>
+            <MobileNavLink
+              href="https://docs.chatsappai.com/"
+              target={'_blank'}
+            >
               API Docs
             </MobileNavLink>
             <MobileNavLink
@@ -221,9 +224,9 @@ export function Header() {
             </div>
             <div className="flex gap-x-5 items-center md:gap-x-8">
               {/* <div className="hidden md:block">
-              <NavLink href="https://development.chatsappai.com">Sign in</NavLink>
+              <NavLink href="https://http://dashboard.chatsappai.com/">Sign in</NavLink>
             </div> */}
-              {/* <Button target="_blank" href="https://development.chatsappai.com/signin" color="blue">
+              {/* <Button target="_blank" href="https://http://dashboard.chatsappai.com//signin" color="blue">
               <span>
                 Sign In
               </span>

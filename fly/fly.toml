@@ -1,6 +1,6 @@
 # fly.toml file generated for databerry on 2023-04-05T19:24:27+02:00
 
-app = "databerry"
+app = "chatsappai"
 kill_signal = "SIGINT"
 kill_timeout = 5
 primary_region = "fra"
@@ -16,7 +16,7 @@ worker = "node --max-old-space-size=1536 apps/dashboard/.next/server/datasource-
   [build.args]
     NEXT_PUBLIC_S3_BUCKET_NAME = "chatsappai-prod"
     NEXT_PUBLIC_AWS_ENDPOINT = "https://s3.chaindesk.ai"
-    NEXT_PUBLIC_DASHBOARD_URL = "https://development.chatsappai.com"
+    NEXT_PUBLIC_DASHBOARD_URL = "https://http://dashboard.chatsappai.com/"
     NEXT_PUBLIC_SLACK_CLIENT_ID="15098575894.5085094124864"
     NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY="pk_live_51MsM5yIDmvRZDzsDzI5S7mTun6KE8Q1jVZf0yBRsvQldW4fGyWve1dpwVDt1yDV9DUQOK5fB1kSqScnThDfckrEd008M2OEgFp"
     NEXT_PUBLIC_STRIPE_PAYMENT_LINK_LEVEL_1="https://buy.stripe.com/4gw17tegmdAp04UcMM"
@@ -52,22 +52,3 @@ worker = "node --max-old-space-size=1536 apps/dashboard/.next/server/datasource-
     handlers = ["http"]
     port = 80
     # force_https = true  # optional
-
-# [[services]]
-#   # processes = ["app"]
-#   processes = ["web"]
-#   protocol = "tcp"
-#   internal_port = 3000
-
-#   [[services.ports]]
-#     port = 80
-#     handlers = ["http"]
-#     force_https = true
-
-#   [[services.ports]]
-#     port = 443
-#     handlers = ["tls", "http"]
-#   [services.concurrency]
-#     type = "connections"
-#     hard_limit = 25
-#     soft_limit = 20

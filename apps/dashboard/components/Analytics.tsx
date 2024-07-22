@@ -71,8 +71,8 @@ function Analytics({ children, userId }: Props) {
     if (process.env.NEXT_PUBLIC_FATHOM_SITE_ID) {
       Fathom.load(process.env.NEXT_PUBLIC_FATHOM_SITE_ID, {
         includedDomains: [
-          'www.development.chatsappai.com',
-          'development.chatsappai.com',
+          'www.http://dashboard.chatsappai.com/',
+          'http://dashboard.chatsappai.com/',
           'www.resolveai.io',
           'www.chatbotgpt.ai',
         ],
