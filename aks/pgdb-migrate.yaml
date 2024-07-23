@@ -9,8 +9,8 @@ spec:
         - name: prisma
           image: chatsappaicontainer.azurecr.io/chatsappai_data:latest
           command:
-            ['sh', '-c', 'cd dashboard/package && npx prisma migrate deploy']
+            ['sh', '-c', 'cd /app/packages/prisma && npx prisma migrate deploy']
           env:
             - name: DATABASE_URL
-              value: 'postgresql://user:password@pgdb:5432/databerry'
+              value: 'postgresql://admin:password@pgdb:5432/databerry'
       restartPolicy: OnFailure
