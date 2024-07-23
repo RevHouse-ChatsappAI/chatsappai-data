@@ -49,7 +49,7 @@ kind: Service
 metadata:
   name: pgdb
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   selector:
     io.kompose.service: pgdb
   ports:
