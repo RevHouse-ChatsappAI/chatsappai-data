@@ -47,7 +47,7 @@ const nextConfig = {
         has: [
           {
             type: 'host',
-            value: 'http://dashboard.chatsappai.com/',
+            value: 'https://dashboard.chatsappai.com/',
           },
         ],
       },
@@ -100,7 +100,7 @@ const nextConfig = {
           has: [
             {
               type: 'host',
-              value: 'http://dashboard.chatsappai.com/',
+              value: 'https://dashboard.chatsappai.com/',
             },
           ],
         },
@@ -182,7 +182,7 @@ const nextConfig = {
           has: [
             {
               type: 'host',
-              value: 'http://dashboard.chatsappai.com/',
+              value: 'https://dashboard.chatsappai.com/',
             },
           ],
         },

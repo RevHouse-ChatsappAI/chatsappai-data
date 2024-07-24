@@ -14,7 +14,7 @@ const items: Product[] = [
     logo: '/images/logo.png',
     cta: {
       label: 'Get Started for Free',
-      url: 'https://http://dashboard.chatsappai.com//agents',
+      url: 'https://dashboard.chatsappai.com//agents',
     },
     keywords: [
       'ChatGPT Chatbot For Your Website',
@@ -92,7 +92,7 @@ const items: Product[] = [
     logo: '/images/logo.png',
     cta: {
       label: 'Get Started for Free',
-      url: 'https://http://dashboard.chatsappai.com//forms',
+      url: 'https://dashboard.chatsappai.com//forms',
     },
     keywords: ['AI-Driven Forms', 'ChatGPT Form', 'AI Form'],
 
@@ -147,7 +147,7 @@ const items: Product[] = [
     },
     cta: {
       label: 'Get Started for Free',
-      url: 'https://http://dashboard.chatsappai.com//forms',
+      url: 'https://dashboard.chatsappai.com//forms',
     },
     features: {
       title: `AI-Powered email support`,
@@ -231,7 +231,7 @@ const items: Product[] = [
     ),
     cta: {
       label: 'Get Started for Free',
-      url: 'https://http://dashboard.chatsappai.com//forms',
+      url: 'https://dashboard.chatsappai.com//forms',
     },
     keywords: ['AI-Driven Forms', 'ChatGPT Form', 'AI Form'],
 

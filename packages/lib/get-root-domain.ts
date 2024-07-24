@@ -1,4 +1,4 @@
-// https://http://dashboard.chatsappai.com/ => chaindesk.ai || https://53f2-196-64-79-68.ngrok-free.app -> 53f2-196-64-79-68.ngrok-free.app
+// https://dashboard.chatsappai.com/ => chaindesk.ai || https://53f2-196-64-79-68.ngrok-free.app -> 53f2-196-64-79-68.ngrok-free.app
 export function getRootDomain(url: string) {
   let hostname;
 

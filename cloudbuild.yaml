@@ -31,7 +31,7 @@ images:
 substitutions:
   _SCOPE: 'dashboard'
   _NEXT_PUBLIC_S3_BUCKET_NAME: 'chatsappai'
-  _NEXT_PUBLIC_DASHBOARD_URL: 'https://http://dashboard.chatsappai.com/'
+  _NEXT_PUBLIC_DASHBOARD_URL: 'https://dashboard.chatsappai.com/'
   _NEXT_PUBLIC_SLACK_CLIENT_ID: '15098575894.5085094124864'
   _NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY: 'pk_live_51MsM5yIDmvRZDzsDzI5S7mTun6KE8Q1jVZf0yBRsvQldW4fGyWve1dpwVDt1yDV9DUQOK5fB1kSqScnThDfckrEd008M2OEgFp'
   _NEXT_PUBLIC_STRIPE_PAYMENT_LINK_LEVEL_1: 'https://buy.stripe.com/4gw17tegmdAp04UcMM'

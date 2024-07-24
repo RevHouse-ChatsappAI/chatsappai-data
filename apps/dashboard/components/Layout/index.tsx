@@ -323,7 +323,7 @@ export default function Layout(props: Props) {
         window.location.hostname === 'chaindesk.ai'
       ) {
         window.location.href =
-          'https://http://dashboard.chatsappai.com/' + window.location.pathname;
+          'https://dashboard.chatsappai.com/' + window.location.pathname;
       }
     }
   }, []);
@@ -559,7 +559,7 @@ export default function Layout(props: Props) {
           <Box
             component={'iframe'}
             src={
-              'https://http://dashboard.chatsappai.com//forms/clqz46y9u003e8ipv0lvfcnsg'
+              'https://dashboard.chatsappai.com//forms/clqz46y9u003e8ipv0lvfcnsg'
             }
             frameBorder="0"
             sx={{

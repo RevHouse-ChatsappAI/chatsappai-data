@@ -257,5 +257,5 @@ spec:
     io.kompose.service: chatsappai-dashboard
   ports:
     - protocol: TCP
-      port: 80
+      port: 3000
       targetPort: 3000

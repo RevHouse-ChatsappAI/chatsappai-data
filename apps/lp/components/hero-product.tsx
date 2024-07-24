@@ -157,7 +157,7 @@ export default function Hero(props: {
                         className="w-full shadow btn text-zinc-100 bg-zinc-900 hover:bg-zinc-800"
                         href={
                           props?.cta?.url ||
-                          `https://http://dashboard.chatsappai.com//agents`
+                          `https://dashboard.chatsappai.com//agents`
                         }
                       >
                         {props?.cta?.label}

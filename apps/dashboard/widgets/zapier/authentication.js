@@ -1,6 +1,6 @@
 const baseApiUrl = process.env.API_URL
   ? process.env.API_URL
-  : 'https://http://dashboard.chatsappai.com/';
+  : 'https://dashboard.chatsappai.com/';
 
 module.exports = {
   type: 'custom',
@@ -21,7 +21,7 @@ module.exports = {
       label: 'ChatsappAIAPI Key',
       type: 'password',
       helpText:
-        'Your ChatsappAIAPI Key can be found here https://http://dashboard.chatsappai.com//settings/api-keys',
+        'Your ChatsappAIAPI Key can be found here https://dashboard.chatsappai.com//settings/api-keys',
     },
   ],
   customConfig: {},
