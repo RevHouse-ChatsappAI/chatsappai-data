@@ -211,13 +211,13 @@ export function Header() {
               {/* <div className="hidden md:block">
               <NavLink href="https://dashboard.chatsappai.com/">Sign in</NavLink>
             </div> */}
-              {/* <Button target="_blank" href="https://dashboard.chatsappai.com//signin" color="blue">
+              {/* <Button target="_blank" href="https://dashboard.chatsappai.com/signin" color="blue">
               <span>
                 Sign In
               </span>
             </Button> */}
               {/* Change following link href with /signin for local signin */}
-              {/* <Link href="https://dashboard.chatsappai.com//signin?product=chatbotgpt"> */}
+              {/* <Link href="https://dashboard.chatsappai.com/signin?product=chatbotgpt"> */}
               <Link href={`${appUrl}/signin?product=${hostname}`}>
                 <Button variant="outlined" sx={{ borderRadius: 100 }}>
                   Sign In

@@ -73,7 +73,7 @@ const tiers = [
   {
     name: 'Growth',
     id: 'tier-startup',
-    href: 'https://dashboard.chatsappai.com//settings/billing',
+    href: 'https://dashboard.chatsappai.com/settings/billing',
     price: { monthly: '$25', annually: '$250' },
     description: 'A plan that scales with your rapidly growing business.',
     features: [

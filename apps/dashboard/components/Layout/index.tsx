@@ -559,7 +559,7 @@ export default function Layout(props: Props) {
           <Box
             component={'iframe'}
             src={
-              'https://dashboard.chatsappai.com//forms/clqz46y9u003e8ipv0lvfcnsg'
+              'https://dashboard.chatsappai.com/forms/clqz46y9u003e8ipv0lvfcnsg'
             }
             frameBorder="0"
             sx={{

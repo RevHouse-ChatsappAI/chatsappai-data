@@ -14,7 +14,7 @@ const items: Product[] = [
     logo: 'https://www.svgrepo.com/show/197996/internet.svg',
     cta: {
       label: 'Get Started for Free',
-      url: 'https://dashboard.chatsappai.com//agents',
+      url: 'https://dashboard.chatsappai.com/agents',
     },
     keywords: ['ChatGPT Chatbot For Your Website'],
 
@@ -55,7 +55,7 @@ const items: Product[] = [
     logo: 'https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg',
     cta: {
       label: 'Get Started for Free',
-      url: 'https://dashboard.chatsappai.com//agents',
+      url: 'https://dashboard.chatsappai.com/agents',
     },
     cta2: {
       label: 'Demo - Chat with our AI on WhatsApp',
@@ -102,7 +102,7 @@ const items: Product[] = [
     logo: '/shared/images/logos/slack.png',
     cta: {
       label: 'Create your Slack Bot',
-      url: 'https://dashboard.chatsappai.com//agents',
+      url: 'https://dashboard.chatsappai.com/agents',
     },
     metadata: {
       title: 'Custom ChatGPT - AI Chatbot for Slack | ChatsappAI',
@@ -144,7 +144,7 @@ const items: Product[] = [
       'Enhance your Crisp experience with a custom AI chatbot. Train on your data in minutes, install the Crisp plugin, and keep your bot synced for optimal performance.',
     cta: {
       label: 'Get Started for Free',
-      url: 'https://dashboard.chatsappai.com//datastores',
+      url: 'https://dashboard.chatsappai.com/datastores',
     },
 
     logo: '/shared/images/logos/crisp.svg',
@@ -188,7 +188,7 @@ const items: Product[] = [
     logo: '/shared/images/logos/zapier.png',
     cta: {
       label: 'Get Started for Free',
-      url: 'https://dashboard.chatsappai.com//datastores',
+      url: 'https://dashboard.chatsappai.com/datastores',
     },
     youtubeVideoId: 'eV7vbhskUaM',
     isChannel: true,
@@ -229,7 +229,7 @@ const items: Product[] = [
     logo: '/integrations/zendesk/icon.svg',
     cta: {
       label: 'Get Started for Free',
-      url: 'https://dashboard.chatsappai.com//agents',
+      url: 'https://dashboard.chatsappai.com/agents',
     },
     features: {
       items: [
@@ -260,7 +260,7 @@ const items: Product[] = [
     logo: 'https://upload.wikimedia.org/wikipedia/commons/0/09/Wordpress-Logo.svg',
     cta: {
       label: 'Get Started for Free',
-      url: 'https://dashboard.chatsappai.com//datastores',
+      url: 'https://dashboard.chatsappai.com/datastores',
     },
     youtubeVideoId: '-NkVS2l66Zs',
 
@@ -302,7 +302,7 @@ const items: Product[] = [
     logo: 'https://www.svgrepo.com/show/303503/shopify-logo.svg',
     cta: {
       label: 'Create your WhatsApp AI Chatbot',
-      url: 'https://dashboard.chatsappai.com//agents',
+      url: 'https://dashboard.chatsappai.com/agents',
     },
     metadata: {
       title: 'Custom ChatGPT - AI Chatbot for Shopify | ChatsappAI',
@@ -346,7 +346,7 @@ const items: Product[] = [
     logo: 'https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg',
     cta: {
       label: 'Get Started for Free',
-      url: 'https://dashboard.chatsappai.com//agents',
+      url: 'https://dashboard.chatsappai.com/agents',
     },
     metadata: {
       title: 'Custom ChatGPT - AI Chatbot for Telegram | ChatsappAI',
@@ -397,7 +397,7 @@ const items: Product[] = [
     logo: 'https://www.svgrepo.com/show/197996/internet.svg',
     cta: {
       label: 'Get Started for Free',
-      url: 'https://dashboard.chatsappai.com//datastores',
+      url: 'https://dashboard.chatsappai.com/datastores',
     },
     isDatasource: true,
     features: {
@@ -424,7 +424,7 @@ const items: Product[] = [
     logo: 'https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg',
     cta: {
       label: 'Add a Notion notebook',
-      url: 'https://dashboard.chatsappai.com//datastores',
+      url: 'https://dashboard.chatsappai.com/datastores',
     },
     youtubeVideoId: 'A8Ke7mjX16A',
     metadata: {
@@ -461,7 +461,7 @@ const items: Product[] = [
     logo: 'https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg',
     cta: {
       label: 'Connect your Google Drive account',
-      url: 'https://dashboard.chatsappai.com//datastores',
+      url: 'https://dashboard.chatsappai.com/datastores',
     },
     metadata: {
       title:
@@ -498,7 +498,7 @@ const items: Product[] = [
     logo: 'https://www.svgrepo.com/show/13671/youtube.svg',
     cta: {
       label: 'Add a YouTube video',
-      url: 'https://dashboard.chatsappai.com//datastores',
+      url: 'https://dashboard.chatsappai.com/datastores',
     },
     metadata: {
       title:
@@ -535,7 +535,7 @@ const items: Product[] = [
     logo: 'https://upload.wikimedia.org/wikipedia/commons/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg',
     cta: {
       label: 'Upload a Powerpoint',
-      url: 'https://dashboard.chatsappai.com//datastores',
+      url: 'https://dashboard.chatsappai.com/datastores',
     },
     metadata: {
       title:
@@ -567,7 +567,7 @@ const items: Product[] = [
     logo: 'https://upload.wikimedia.org/wikipedia/commons/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg',
     cta: {
       label: 'Upload a Document',
-      url: 'https://dashboard.chatsappai.com//datastores',
+      url: 'https://dashboard.chatsappai.com/datastores',
     },
     metadata: {
       title:
@@ -599,7 +599,7 @@ const items: Product[] = [
     logo: 'https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg',
     cta: {
       label: 'Upload a Document',
-      url: 'https://dashboard.chatsappai.com//datastores',
+      url: 'https://dashboard.chatsappai.com/datastores',
     },
     metadata: {
       title:

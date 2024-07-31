@@ -21,7 +21,7 @@ module.exports = {
       label: 'ChatsappAIAPI Key',
       type: 'password',
       helpText:
-        'Your ChatsappAIAPI Key can be found here https://dashboard.chatsappai.com//settings/api-keys',
+        'Your ChatsappAIAPI Key can be found here https://dashboard.chatsappai.com/settings/api-keys',
     },
   ],
   customConfig: {},

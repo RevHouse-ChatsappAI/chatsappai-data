@@ -51,7 +51,7 @@ export default function Features02() {
               <div>
                 <LinkWithUTMFromPath
                   className="w-full shadow btn text-zinc-100 bg-zinc-900 hover:bg-zinc-800"
-                  href={`https://dashboard.chatsappai.com//agents`}
+                  href={`https://dashboard.chatsappai.com/agents`}
                 >
                   Start For Free
                 </LinkWithUTMFromPath>

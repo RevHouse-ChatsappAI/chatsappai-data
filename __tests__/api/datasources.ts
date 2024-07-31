@@ -34,7 +34,7 @@ describe('Datasources - Create', () => {
         name: 'Chatsappai Landingpage',
         type: 'web_page',
         config: {
-          source_url: 'https://dashboard.chatsappai.com//',
+          source_url: 'https://dashboard.chatsappai.com/',
         },
       } as DatasourceSchema);
 

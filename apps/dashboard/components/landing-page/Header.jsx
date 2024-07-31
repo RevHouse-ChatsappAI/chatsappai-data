@@ -226,7 +226,7 @@ export function Header() {
               {/* <div className="hidden md:block">
               <NavLink href="https://dashboard.chatsappai.com/">Sign in</NavLink>
             </div> */}
-              {/* <Button target="_blank" href="https://dashboard.chatsappai.com//signin" color="blue">
+              {/* <Button target="_blank" href="https://dashboard.chatsappai.com/signin" color="blue">
               <span>
                 Sign In
               </span>
