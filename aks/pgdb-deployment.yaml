@@ -61,9 +61,17 @@ spec:
           envFrom:
             - configMapRef:
                 name: postgres-config
+          resources:
+            requests:
+              memory: '2Gi'
+              cpu: '500m'
+            limits:
+              memory: '4Gi'
+              cpu: '1000m'
           volumeMounts:
             - name: postgres-data
               mountPath: /var/lib/postgresql/data
+              subPath: pgdata
   volumeClaimTemplates:
     - metadata:
         name: postgres-data
@@ -90,3 +98,17 @@ spec:
       name: postgres
       port: 5432
       targetPort: 5432
+---
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: postgres-hpa
+  namespace: default
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: StatefulSet
+    name: postgres
+  minReplicas: 1
+  maxReplicas: 5
+  targetCPUUtilizationPercentage: 80

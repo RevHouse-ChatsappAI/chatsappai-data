@@ -22,9 +22,9 @@ spec:
     spec:
       containers:
         - name: chatsappai-dashboard
-          image: chatsappaicontainer.azurecr.io/chatsappai_data:latest
+          image: dashboardchatsappaicontainer.azurecr.io/dashboard.chatsappai
           ports:
-            - containerPort: 3000
+            - containerPort: 80
           env:
             - name: ANALYZE
               valueFrom:
@@ -252,10 +252,10 @@ kind: Service
 metadata:
   name: chatsappai-dashboard
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     io.kompose.service: chatsappai-dashboard
   ports:
     - protocol: TCP
-      port: 3000
-      targetPort: 3000
+      port: 80
+      targetPort: 80
